@@ -1,0 +1,1527 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>ตรวจนับครุภัณฑ์</title>
+<meta charset="utf-8">
+<link rel="icon" type="image/webp" href="data:image/webp;base64,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">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Anuphan:wght@500;600;700&family=IBM+Plex+Sans+Thai:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+html{-webkit-text-size-adjust:100%}
+body{margin:0}
+img{max-width:100%}
+.thumb{padding:0;cursor:zoom-in}
+.scan-cam{display:inline-flex;align-items:center;justify-content:center;gap:6px;border:1px solid var(--line);border-radius:8px;padding:8px 14px;min-height:40px;background:var(--surface);color:var(--accent);font-weight:600;cursor:pointer;white-space:nowrap}
+.scan-cam input{display:none}
+.scan-cam.big{min-height:52px;border:2px solid var(--accent);background:var(--accent-soft);border-radius:12px;font-size:1rem}
+.scan-cam.busy{opacity:.6;pointer-events:none}
+.nf-dlg{width:min(400px,calc(100vw - 24px))}
+dialog.scan-dlg{border:0;margin:0;padding:0;width:100%;height:100%;max-width:none;max-height:none;background:#000;color:#fff;border-radius:0}
+dialog.scan-dlg::backdrop{background:#000}
+.scan-view{position:relative;width:100%;height:100%;overflow:hidden;display:grid;place-items:center}
+.scan-view video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.scan-frame{position:relative;width:min(70vw,300px);aspect-ratio:1;max-width:100%;box-shadow:0 0 0 100vmax rgba(0,0,0,.45);border-radius:18px}
+.scan-frame i{position:absolute;width:34px;height:34px;border:4px solid #fff;border-radius:6px}
+.scan-frame i:nth-child(1){left:-2px;top:-2px;border-right:0;border-bottom:0}.scan-frame i:nth-child(2){right:-2px;top:-2px;border-left:0;border-bottom:0}
+.scan-frame i:nth-child(3){left:-2px;bottom:-2px;border-right:0;border-top:0}.scan-frame i:nth-child(4){right:-2px;bottom:-2px;border-left:0;border-top:0}
+.scan-line{position:absolute;left:8%;right:8%;height:3px;top:10%;border-radius:2px;background:#4FE3C1;box-shadow:0 0 12px #4FE3C1}
+@media (prefers-reduced-motion:no-preference){.scan-line{animation:scanline 1.8s ease-in-out infinite alternate}}
+@keyframes scanline{to{top:88%}}
+.scan-frame.hit i{border-color:#4FE3C1}
+.scan-top{position:absolute;left:0;right:0;top:0;padding:calc(14px + env(safe-area-inset-top,0px)) 16px 14px;display:flex;gap:12px;align-items:center;background:linear-gradient(rgba(0,0,0,.6),transparent);font-weight:600}
+.scan-x{min-height:40px;width:40px;padding:0;border-radius:50%;background:rgba(255,255,255,.18);color:#fff;border:0;font-size:18px}
+.scan-bottom{position:absolute;left:0;right:0;bottom:0;padding:16px 16px calc(22px + env(safe-area-inset-bottom,0px));display:flex;gap:10px;justify-content:center;background:linear-gradient(transparent,rgba(0,0,0,.6))}
+.scan-bottom .scan-cam{background:rgba(255,255,255,.16);color:#fff;border:1px solid rgba(255,255,255,.35);min-height:48px}
+.nf-ic{width:64px;height:64px;border-radius:50%;display:grid;place-items:center;font-size:34px;font-weight:700;background:var(--warn-bg);color:var(--warn)}
+.who-row{color:var(--bad);font-weight:600}
+.who-row input{border-color:var(--bad)}
+.cam.locked{opacity:.45}
+/* ---- delete popup: trash + spinning ring while working, burst + drawn tick when done ---- */
+dialog.done-pop{border:0;margin:0;padding:24px;width:100%;height:100%;max-width:none;max-height:none;background:transparent;color:var(--ink);box-shadow:none;overflow:hidden}
+dialog.done-pop[open]{display:grid;place-items:center}
+dialog.done-pop::backdrop{background:rgba(8,18,16,.42);-webkit-backdrop-filter:blur(6px);backdrop-filter:blur(6px)}
+.done-card{position:relative;overflow:hidden;background:var(--surface);color:var(--ink);border-radius:24px;padding:30px 30px 26px;min-width:260px;max-width:340px;text-align:center;display:grid;gap:8px;justify-items:center;box-shadow:0 24px 60px rgba(0,0,0,.30),inset 0 1px 0 rgba(255,255,255,.6)}
+.done-title{font-family:var(--f-head);font-size:1.25rem;font-weight:700;margin-top:6px}
+.done-msg{color:var(--muted);font-size:.92rem;word-break:break-word}
+.done-msg b{font-family:var(--f-mono);font-weight:500;color:var(--ink)}
+.pop-ic{position:relative;width:96px;height:96px}
+.pop-ic svg{position:absolute;inset:0;width:100%;height:100%;overflow:visible}
+.pop-ic .ring .track{fill:none;stroke:var(--bad-bg);stroke-width:6}
+.pop-ic .ring .arc{fill:none;stroke:var(--bad);stroke-width:6;stroke-linecap:round;stroke-dasharray:70 220;transform-origin:48px 48px}
+.pop-ic .trash{color:var(--bad)}
+.pop-ic .trash .lid{transform-origin:62px 30px}
+.pop-ic .check .fill{fill:var(--ok);transform-origin:48px 48px;transform:scale(0)}
+.pop-ic .check .tick{fill:none;stroke:#fff;stroke-width:7;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:60;stroke-dashoffset:60}
+.pop-ic .burst{position:absolute;left:50%;top:50%;width:0;height:0}
+.pop-ic .burst i{position:absolute;left:-6px;top:-6px;width:12px;height:12px;border-radius:50%;opacity:0;background:var(--ok)}
+.pop-ic .burst i:nth-child(3n+2){background:var(--accent);width:7px;height:7px;left:-3.5px;top:-3.5px}
+.pop-ic .burst i:nth-child(3n){background:var(--warn);border-radius:2px;width:8px;height:8px;left:-4px;top:-4px}
+.pop-bar{position:absolute;left:0;right:0;bottom:0;height:4px;background:var(--sunk)}
+.pop-bar span{display:block;height:100%;width:100%;background:var(--ok);transform-origin:left}
+/* states */
+.done-pop .check,.done-pop .burst{display:none}
+.done-pop.ok .ring,.done-pop.ok .trash{display:none}
+.done-pop.ok .check,.done-pop.ok .burst{display:block}
+.done-pop.busy .done-title{color:var(--bad)}
+.done-pop.busy .pop-bar span{background:var(--bad);width:35%}
+@media (prefers-reduced-motion:no-preference){
+  .done-pop[open] .done-card{animation:popin .35s cubic-bezier(.3,1.6,.5,1)}
+  .done-pop.busy .ring .arc{animation:spin .9s linear infinite}
+  .done-pop.busy .trash .lid{animation:lid .8s ease-in-out infinite}
+  .done-pop.busy .trash .can{animation:shake .8s ease-in-out infinite}
+  .done-pop.busy .pop-bar span{animation:slide 1.1s ease-in-out infinite}
+  .done-pop.ok .check .fill{animation:grow .45s cubic-bezier(.3,1.7,.5,1) forwards}
+  .done-pop.ok .check .tick{animation:draw .35s .25s ease-out forwards}
+  .done-pop.ok .burst i{animation:burst .7s .15s cubic-bezier(.2,.8,.3,1) forwards}
+  .done-pop.ok .pop-bar span{animation:countdown var(--dur,1.8s) linear forwards}
+  .done-pop.ok .done-title{animation:rise .4s .2s both}
+}
+@media (prefers-reduced-motion:reduce){.done-pop.ok .check .fill{transform:none}.done-pop.ok .check .tick{stroke-dashoffset:0}}
+.pop-ic .burst i:nth-child(1){--a:0deg}.pop-ic .burst i:nth-child(2){--a:36deg}.pop-ic .burst i:nth-child(3){--a:72deg}.pop-ic .burst i:nth-child(4){--a:108deg}.pop-ic .burst i:nth-child(5){--a:144deg}
+.pop-ic .burst i:nth-child(6){--a:180deg}.pop-ic .burst i:nth-child(7){--a:216deg}.pop-ic .burst i:nth-child(8){--a:252deg}.pop-ic .burst i:nth-child(9){--a:288deg}.pop-ic .burst i:nth-child(10){--a:324deg}
+@keyframes spin{to{transform:rotate(360deg)}}
+@keyframes lid{0%,100%{transform:none}40%{transform:translate(1px,-5px) rotate(-22deg)}60%{transform:translate(1px,-5px) rotate(-22deg)}}
+@keyframes shake{0%,100%{transform:none}45%{transform:translateY(1px)}}
+@keyframes slide{0%{transform:translateX(-100%)}100%{transform:translateX(290%)}}
+@keyframes grow{to{transform:scale(1)}}
+@keyframes draw{to{stroke-dashoffset:0}}
+@keyframes burst{0%{opacity:1;transform:rotate(var(--a)) translateY(0) scale(1)}60%{opacity:1}100%{opacity:0;transform:rotate(var(--a)) translateY(-66px) scale(.5)}}
+@keyframes countdown{to{transform:scaleX(0)}}
+/* ---- save popup: camera flash, photos fly up into the cloud, badge + confetti ---- */
+dialog.save-pop{border:0;margin:0;padding:24px;width:100%;height:100%;max-width:none;max-height:none;background:transparent;box-shadow:none;overflow:hidden;color:var(--ink)}
+dialog.save-pop[open]{display:grid;place-items:center}
+dialog.save-pop::backdrop{background:rgba(6,16,14,.45);-webkit-backdrop-filter:blur(7px);backdrop-filter:blur(7px)}
+.save-flash{position:fixed;inset:0;background:#fff;opacity:0;pointer-events:none}
+.save-card{position:relative;overflow:hidden;width:min(320px,100%);border-radius:28px;background:var(--surface);text-align:center;box-shadow:0 30px 70px rgba(0,0,0,.35)}
+.save-top{position:relative;height:150px;background:linear-gradient(135deg,var(--accent),color-mix(in srgb,var(--ok) 70%,#7fd3c4));overflow:hidden}
+.save-top::before,.save-top::after{content:"";position:absolute;border-radius:50%;background:rgba(255,255,255,.12)}
+.save-top::before{width:180px;height:180px;left:-50px;top:-70px}.save-top::after{width:120px;height:120px;right:-30px;bottom:-60px}
+.save-art{position:absolute;left:50%;top:50%;width:150px;height:120px;transform:translate(-50%,-50%)}
+.save-art svg{position:absolute;overflow:visible}
+.save-art .cloud{left:15px;top:6px;width:120px;height:80px;color:#fff;filter:drop-shadow(0 6px 10px rgba(0,0,0,.18))}
+.save-art .pol{left:56px;top:70px;width:38px;height:44px}
+.save-art .pol.p2{left:50px}
+.save-art .badge{left:94px;top:52px;width:40px;height:40px}
+.save-art .badge circle{fill:var(--ok);stroke:#fff;stroke-width:4}
+.save-art .badge path{fill:none;stroke:#fff;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:30;stroke-dashoffset:30}
+.save-conf{position:absolute;left:50%;top:46%;width:0;height:0}
+.save-conf i{position:absolute;width:9px;height:14px;left:-4px;top:-7px;border-radius:2px;opacity:0;background:var(--c)}
+.save-body{padding:18px 22px 24px;display:grid;gap:8px;justify-items:center}
+.save-title{font-family:var(--f-head);font-size:1.45rem;font-weight:700;letter-spacing:-.01em}
+.save-code{font-family:var(--f-mono);font-size:.88rem;color:var(--muted);word-break:break-all}
+.save-photos{font-size:.86rem;color:var(--accent);font-weight:600}
+.save-bar{position:absolute;left:0;right:0;bottom:0;height:5px;background:var(--sunk)}
+.save-bar span{display:block;height:100%;background:linear-gradient(90deg,var(--accent),var(--ok));transform-origin:left}
+/* states: .saving (loop) -> .done (badge, confetti, countdown) | .fail */
+.save-pop .badge,.save-pop .save-conf{visibility:hidden}
+.save-pop.done .badge,.save-pop.done .save-conf{visibility:visible}
+.save-pop.fail .save-top{background:linear-gradient(135deg,var(--bad),color-mix(in srgb,var(--bad) 55%,#ffb4a2))}
+.save-pop.fail .pol,.save-pop.fail .cloud path:last-child{display:none}
+.save-pop.fail .save-title,.save-pop.fail .save-photos{color:var(--bad)}
+.save-pop .save-btns{display:none;gap:8px;width:100%;margin-top:6px}
+.save-pop.fail .save-btns{display:flex}
+.save-pop .save-btns button{flex:1;min-height:44px}
+.save-pop.saving .save-bar span{width:35%;background:linear-gradient(90deg,var(--accent),var(--ok))}
+.save-pop.fail .save-bar{display:none}
+@media (prefers-reduced-motion:no-preference){
+  dialog.save-pop.saving .save-flash{animation:flash .45s ease-out}
+  dialog.save-pop[open] .save-card{animation:cardin .5s cubic-bezier(.25,1.6,.45,1)}
+  dialog.save-pop .cloud{animation:float 2.4s ease-in-out infinite}
+  dialog.save-pop.saving .pol{animation:flyup 1.3s cubic-bezier(.5,0,.3,1) infinite}
+  dialog.save-pop.saving .pol.p2{animation-delay:.65s}
+  dialog.save-pop.saving .save-bar span{animation:slide 1.1s ease-in-out infinite}
+  dialog.save-pop.done .pol{opacity:0}
+  dialog.save-pop.done .badge{animation:badge .5s cubic-bezier(.3,1.8,.5,1) both}
+  dialog.save-pop.done .badge path{animation:draw .35s .2s ease-out forwards}
+  dialog.save-pop.done .save-conf i{animation:confetti 1.1s .1s cubic-bezier(.15,.7,.35,1) forwards}
+  dialog.save-pop.done .save-title{animation:rise .4s both}
+  dialog.save-pop.done .save-bar span{animation:countdown var(--dur,1.6s) linear forwards}
+  dialog.save-pop.fail .save-card{animation:shakex .4s}
+}
+@keyframes shakex{0%,100%{transform:none}20%,60%{transform:translateX(-8px)}40%,80%{transform:translateX(8px)}}
+@media (prefers-reduced-motion:reduce){.save-art .pol{display:none}.save-art .badge path{stroke-dashoffset:0}}
+.save-pop.done .pol{opacity:0}
+.save-conf i:nth-child(1){--a:-80deg;--d:95px;--c:#FFD166}.save-conf i:nth-child(2){--a:-55deg;--d:110px;--c:#06D6A0}.save-conf i:nth-child(3){--a:-30deg;--d:90px;--c:#EF476F}
+.save-conf i:nth-child(4){--a:-5deg;--d:115px;--c:#118AB2}.save-conf i:nth-child(5){--a:20deg;--d:100px;--c:#FFD166}.save-conf i:nth-child(6){--a:45deg;--d:120px;--c:#06D6A0}
+.save-conf i:nth-child(7){--a:70deg;--d:95px;--c:#EF476F}.save-conf i:nth-child(8){--a:100deg;--d:110px;--c:#118AB2}.save-conf i:nth-child(9){--a:130deg;--d:90px;--c:#FFD166}
+.save-conf i:nth-child(10){--a:160deg;--d:115px;--c:#06D6A0}.save-conf i:nth-child(11){--a:190deg;--d:100px;--c:#EF476F}.save-conf i:nth-child(12){--a:220deg;--d:120px;--c:#118AB2}
+.save-conf i:nth-child(13){--a:250deg;--d:95px;--c:#FFD166}.save-conf i:nth-child(14){--a:280deg;--d:110px;--c:#06D6A0}.save-conf i:nth-child(15){--a:-110deg;--d:105px;--c:#EF476F}
+.save-conf i:nth-child(16){--a:-140deg;--d:90px;--c:#118AB2}
+@keyframes flash{0%{opacity:.85}100%{opacity:0}}
+@keyframes cardin{from{transform:scale(.7) rotate(-4deg);opacity:0}to{transform:none;opacity:1}}
+@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-5px)}}
+@keyframes flyup{0%{transform:translateY(40px) rotate(-12deg) scale(1);opacity:0}25%{opacity:1}100%{transform:translateY(-38px) rotate(8deg) scale(.35);opacity:0}}
+@keyframes badge{from{transform:scale(0) rotate(-90deg)}to{transform:none}}
+@keyframes confetti{0%{opacity:1;transform:rotate(var(--a)) translateY(0) rotate(0)}70%{opacity:1}100%{opacity:0;transform:rotate(var(--a)) translateY(calc(-1 * var(--d))) rotate(540deg)}}
+@keyframes rise{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+@keyframes popin{from{transform:scale(.8) translateY(10px);opacity:0}to{transform:none;opacity:1}}
+.testbar{padding:10px 14px;border-radius:10px;background:#FFE7C2;color:#7A3E00;font-weight:600;border:1px dashed #E08A00}
+.res-card{display:grid;gap:8px;padding:14px;border-radius:12px;background:var(--sunk)}
+.res-body{display:grid;gap:8px}
+.res-line{display:flex;flex-wrap:wrap;gap:6px 14px;align-items:center;font-size:.92rem}
+.m-btns{display:flex;gap:10px;max-width:640px;margin:0 auto}
+.m-btns button{flex:1;min-height:56px;font-size:1.05rem}
+.m-save .m-btns button{width:auto;margin:0}
+button.danger.confirm{background:var(--bad);color:#fff;border-color:var(--bad)}
+.thumb .st{position:absolute;left:4px;bottom:4px;font-size:11px;line-height:1.4;padding:1px 6px;border-radius:6px;background:rgba(0,0,0,.6);color:#fff}
+.thumb.up img{opacity:.5}
+.thumb.err{outline:2px solid var(--bad)}
+.tag{justify-self:start}
+
+/* Layout: one working column — round summary, scan bar, filters, asset register list; dialogs for check / edit */
+:root{
+  --bg:#F3F6F5; --surface:#FFFFFF; --sunk:#E8EEEC; --line:#D3DDDA;
+  --ink:#13211E; --muted:#5A6B67; --accent:#0E6656; --accent-ink:#FFFFFF; --accent-soft:#D7EBE6;
+  --ok:#1E7A3C; --ok-bg:#DDF1E3; --warn:#9A5B00; --warn-bg:#FBEBCF;
+  --bad:#B42318; --bad-bg:#FBE0DD; --disp:#5B4B8A; --disp-bg:#E7E2F5; --pend:#5A6B67; --pend-bg:#E6EBEA;
+  --f-head:"Anuphan","IBM Plex Sans Thai",system-ui,sans-serif;
+  --f-body:"IBM Plex Sans Thai",system-ui,sans-serif;
+  --f-mono:"IBM Plex Mono",ui-monospace,Menlo,monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0E1513; --surface:#151F1C; --sunk:#1B2824; --line:#2A3A35;
+  --ink:#E4EEEB; --muted:#93A6A1; --accent:#4FBFA6; --accent-ink:#06201A; --accent-soft:#18372F;
+  --ok:#6FD08F; --ok-bg:#163423; --warn:#F2B65A; --warn-bg:#3A2A10; --bad:#FF8A7D; --bad-bg:#3D1916;
+  --disp:#B9A8F0; --disp-bg:#2A2342; --pend:#93A6A1; --pend-bg:#1F2B28; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0E1513; --surface:#151F1C; --sunk:#1B2824; --line:#2A3A35;
+  --ink:#E4EEEB; --muted:#93A6A1; --accent:#4FBFA6; --accent-ink:#06201A; --accent-soft:#18372F;
+  --ok:#6FD08F; --ok-bg:#163423; --warn:#F2B65A; --warn-bg:#3A2A10; --bad:#FF8A7D; --bad-bg:#3D1916;
+  --disp:#B9A8F0; --disp-bg:#2A2342; --pend:#93A6A1; --pend-bg:#1F2B28; color-scheme:dark}
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+body{background:var(--bg);color:var(--ink);font-family:var(--f-body);font-size:15px;line-height:1.55}
+.wrap{max-width:1040px;margin:0 auto;padding-block:20px 48px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));display:grid;gap:18px}
+h1,h2,h3{font-family:var(--f-head);margin:0;text-wrap:balance;line-height:1.25}
+h1{font-size:1.7rem;font-weight:700}
+h2{font-size:1.05rem;font-weight:600}
+.muted{color:var(--muted)}
+.mono{font-family:var(--f-mono);font-variant-numeric:tabular-nums}
+.top{display:flex;flex-wrap:wrap;gap:12px;align-items:flex-end;justify-content:space-between}
+.round{font-size:.9rem;color:var(--muted);display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.tag{display:inline-block;font-size:.72rem;letter-spacing:.04em;padding:2px 8px;border-radius:4px;background:var(--accent-soft);color:var(--accent);font-weight:600}
+button{font:inherit;cursor:pointer;border-radius:8px;border:1px solid var(--line);background:var(--surface);color:var(--ink);padding:8px 14px;min-height:40px}
+button:hover{border-color:var(--accent)}
+button:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+button.primary{background:var(--accent);color:var(--accent-ink);border-color:var(--accent);font-weight:600}
+button.link{border:none;background:none;color:var(--accent);padding:4px 6px;min-height:0;text-decoration:underline;text-underline-offset:3px}
+button.danger{color:var(--bad);border-color:var(--bad)}
+button:disabled{opacity:.5;cursor:not-allowed}
+input,select,textarea{font:inherit;color:var(--ink);background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:8px 10px;min-height:40px;width:100%}
+label{display:grid;gap:4px;font-size:.85rem;color:var(--muted)}
+
+/* summary */
+.summary{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:18px;display:grid;gap:14px}
+.prog-row{display:flex;flex-wrap:wrap;gap:8px 20px;align-items:baseline}
+.big{font-family:var(--f-head);font-size:2.2rem;font-weight:700;font-variant-numeric:tabular-nums}
+.bar{height:12px;border-radius:6px;background:var(--sunk);overflow:hidden;display:flex}
+.bar span{display:block;height:100%}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chip{display:inline-flex;gap:8px;align-items:center;border-radius:999px;padding:4px 12px;min-height:34px;font-size:.88rem;border:1px solid transparent}
+.chip b{font-variant-numeric:tabular-nums}
+.chip[aria-pressed="true"]{border-color:currentColor;box-shadow:inset 0 0 0 1px currentColor}
+.s-ok{background:var(--ok-bg);color:var(--ok)} .s-damaged{background:var(--warn-bg);color:var(--warn)}
+.s-lost{background:var(--bad-bg);color:var(--bad)} .s-dispose{background:var(--disp-bg);color:var(--disp)}
+.s-pending{background:var(--pend-bg);color:var(--pend)}
+.dot{width:8px;height:8px;border-radius:50%;background:currentColor;flex:none}
+
+/* scan */
+.scan{display:flex;gap:8px;flex-wrap:wrap;position:relative}
+.sg-wrap{position:absolute;left:0;right:0;top:100%;height:0;z-index:40}
+.suggest{position:absolute;left:0;right:0;top:6px;max-height:min(420px,60vh);overflow:auto;background:var(--surface);border:1px solid var(--line);border-radius:12px;box-shadow:0 14px 34px rgba(0,0,0,.18);padding:6px;display:grid;gap:2px}
+.sg-item{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:2px 10px;align-items:center;text-align:left;border:0;border-radius:8px;background:none;padding:8px 10px;min-height:0;width:100%;color:var(--ink)}
+.sg-item:hover,.sg-item.on{background:var(--accent-soft)}
+.sg-code{font-size:.95rem;letter-spacing:.01em;grid-column:1}
+.sg-code b{color:var(--accent);background:var(--accent-soft);border-radius:3px}
+.sg-name{grid-column:1;font-size:.88rem;font-weight:600;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.sg-meta{grid-column:1;font-size:.78rem;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.sg-item .chip{grid-column:2;grid-row:1/span 3;min-height:26px;font-size:.78rem}
+.scan input{flex:1 1 240px;font-family:var(--f-mono);font-size:1rem;min-height:48px}
+.scan button{min-height:48px}
+.hint{font-size:.82rem;color:var(--muted)}
+.filters{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.filters select{width:auto;min-width:0;flex:1 1 160px}
+.toolbar{display:flex;flex-wrap:wrap;gap:8px}
+
+/* list */
+.list{background:var(--surface);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.row{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:6px 14px;padding:12px 16px;border-top:1px solid var(--line);align-items:center}
+.row:first-child{border-top:none}
+.row .code{font-family:var(--f-mono);font-size:.85rem;color:var(--muted);word-break:break-all}
+.row .name{font-weight:600}
+.row .meta{font-size:.84rem;color:var(--muted);display:flex;flex-wrap:wrap;gap:4px 14px}
+.row .act{display:flex;gap:8px;align-items:center;flex-wrap:wrap;justify-content:flex-end}
+.ex{font-size:.7rem;padding:1px 6px;border-radius:4px;border:1px dashed var(--muted);color:var(--muted);margin-left:6px;vertical-align:2px}
+.empty{padding:32px 16px;text-align:center;color:var(--muted);display:grid;gap:10px;justify-items:center}
+@media (max-width:560px){.row{grid-template-columns:minmax(0,1fr)}.row .act{justify-content:flex-start}}
+
+/* locations */
+/* compact progress: one line per building/floor, small room tiles */
+.locs{display:grid;gap:10px}
+.loc-group{display:grid;grid-template-columns:110px minmax(0,1fr);gap:8px;align-items:start}
+.loc-group h3{margin:0;font-size:.8rem;font-weight:600;color:var(--muted);padding-top:7px}
+.loc-row{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:6px}
+.loc{background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:5px 9px 6px;display:grid;gap:3px;text-align:left;min-height:0;font-size:.82rem}
+.loc strong{font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.loc .n{font-variant-numeric:tabular-nums;font-size:.74rem;color:var(--muted)}
+.loc .bar{height:3px}
+.loc .top1{display:flex;gap:8px;align-items:baseline;min-width:0}
+.loc .top1 strong{flex:1;min-width:0}
+@media (max-width:560px){.loc-group{grid-template-columns:1fr;gap:4px}.loc-group h3{padding-top:0}}
+
+/* dialogs */
+dialog{border:1px solid var(--line);border-radius:14px;background:var(--surface);color:var(--ink);padding:0;width:min(560px,calc(100vw - 24px));max-height:calc(100dvh - 24px)}
+dialog::backdrop{background:rgba(10,20,18,.45)}
+.dlg{padding:20px;display:grid;gap:14px}
+.dlg-head{display:flex;justify-content:space-between;gap:10px;align-items:flex-start}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+@media (max-width:480px){.grid2{grid-template-columns:1fr}}
+.statusbtns{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.statusbtns button{display:flex;gap:8px;align-items:center;justify-content:center;font-weight:600;border-width:2px;min-height:52px}
+.statusbtns button[aria-pressed="true"]{border-color:currentColor}
+.statusbtns button[aria-pressed="false"]{background:var(--surface)}
+.kv{display:grid;grid-template-columns:auto 1fr;gap:4px 14px;font-size:.9rem}
+.kv dt{color:var(--muted)} .kv dd{margin:0;min-width:0;word-break:break-word}
+.hist{display:grid;gap:6px;font-size:.85rem;max-height:180px;overflow:auto}
+.hist div{display:flex;gap:8px;flex-wrap:wrap;align-items:center;padding:6px 8px;background:var(--sunk);border-radius:6px}
+.foot{display:flex;gap:8px;justify-content:flex-end;flex-wrap:wrap}
+.toast{position:fixed;left:50%;transform:translateX(-50%);bottom:calc(20px + env(safe-area-inset-bottom,0px));background:var(--ink);color:var(--bg);padding:10px 16px;border-radius:8px;font-size:.9rem;z-index:50;max-width:calc(100vw - 32px)}
+.notice{padding:10px 14px;border-radius:8px;background:var(--warn-bg);color:var(--warn);font-size:.9rem}
+.confirm{display:flex;gap:8px;align-items:center;flex-wrap:wrap;padding:10px 12px;border-radius:8px;background:var(--bad-bg);color:var(--bad);font-size:.9rem}
+@media (prefers-reduced-motion:no-preference){.bar span{transition:width .4s ease}}
+
+/* photos */
+.thumbs{display:flex;flex-wrap:wrap;gap:8px}
+.thumb{position:relative;width:84px;height:84px;border-radius:8px;overflow:hidden;background:var(--sunk);border:1px solid var(--line);flex:none}
+.thumb img{width:100%;height:100%;object-fit:cover;display:block}
+.thumb button{position:absolute;top:2px;right:2px;min-height:0;width:26px;height:26px;padding:0;border-radius:50%;background:var(--ink);color:var(--bg);border:none;font-size:14px;line-height:1}
+.thumb.sm{width:44px;height:44px;border-radius:6px}
+.cam{display:inline-flex;align-items:center;justify-content:center;gap:8px;border:2px dashed var(--accent);color:var(--accent);border-radius:10px;padding:10px 14px;min-height:48px;font-weight:600;cursor:pointer;background:var(--accent-soft)}
+.cam input{display:none}
+.modelink{font-size:.88rem}
+
+/* mobile mode */
+#mApp{max-width:640px;margin:0 auto;padding-left:max(12px,env(safe-area-inset-left,0px));padding-right:max(12px,env(safe-area-inset-right,0px));padding-block:12px 120px;display:grid;gap:14px}
+.m-top{display:flex;justify-content:space-between;align-items:center;gap:10px}
+.m-top h1{font-size:1.3rem}
+.m-card{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:14px;display:grid;gap:10px}
+.m-prog{display:flex;justify-content:space-between;align-items:baseline;gap:8px;flex-wrap:wrap}
+.m-prog .big{font-size:1.8rem}
+#mApp select,#mApp input,#mApp textarea{font-size:16px}
+.m-scan{display:flex;gap:8px;position:relative}
+.m-scan input{flex:1;min-height:52px;font-family:var(--f-mono)}
+.m-scan button{min-height:52px}
+.m-tabs{display:grid;grid-template-columns:1fr 1fr;background:var(--sunk);border-radius:10px;padding:4px;gap:4px}
+.d-tabs{grid-template-columns:repeat(3,1fr);max-width:560px}
+.m-tabs button{border:none;background:none;min-height:40px;border-radius:8px;font-weight:600;color:var(--muted)}
+.m-tabs button[aria-pressed="true"]{background:var(--surface);color:var(--ink);box-shadow:0 1px 2px rgba(0,0,0,.08)}
+.m-item{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:4px 10px;align-items:center;text-align:left;background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:12px 14px;width:100%;min-height:64px}
+.m-item .code{font-family:var(--f-mono);font-size:.8rem;color:var(--muted);word-break:break-all}
+.m-item .name{font-weight:600}
+.m-list{display:grid;gap:8px}
+.m-back{border:none;background:none;color:var(--accent);padding:6px 0;min-height:40px;font-weight:600}
+.m-status{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.m-status button{min-height:60px;font-weight:600;border-width:2px;display:flex;gap:8px;align-items:center;justify-content:center}
+.m-status button[aria-pressed="true"]{border-color:currentColor}
+.m-status button[aria-pressed="false"]{background:var(--surface)}
+.m-save{position:fixed;left:0;right:0;bottom:0;padding:12px max(12px,env(safe-area-inset-right,0px)) calc(12px + env(safe-area-inset-bottom,0px)) max(12px,env(safe-area-inset-left,0px));background:var(--surface);border-top:1px solid var(--line);z-index:20}
+.m-save button{width:100%;max-width:640px;display:block;margin:0 auto;min-height:56px;font-size:1.05rem}
+.m-moved{padding:8px 12px;border-radius:8px;background:var(--warn-bg);color:var(--warn);font-size:.88rem}
+details.m-more summary{cursor:pointer;color:var(--accent);font-size:.9rem;padding:4px 0}
+
+/* =====================================================================
+   PRO THEME — neutral enterprise system: one accent, 4px spacing grid,
+   1px hairlines, soft elevation, consistent 8/12/16 radii, Inter + Thai.
+   ===================================================================== */
+:root{
+  --bg:#F6F7F9; --surface:#FFFFFF; --sunk:#F1F3F6; --line:#E3E6EB; --line-strong:#CDD3DB;
+  --ink:#0E1726; --muted:#5D6778; --faint:#8A93A3;
+  --accent:#0F766E; --accent-hover:#0B5F59; --accent-ink:#FFFFFF; --accent-soft:#E7F3F1;
+  --ok:#15803D; --ok-bg:#ECFDF3; --warn:#B45309; --warn-bg:#FFF7E8; --bad:#C2410C; --bad-bg:#FFF1EB;
+  --disp:#6D28D9; --disp-bg:#F3EEFF; --pend:#64748B; --pend-bg:#F1F4F8;
+  --f-head:"Inter","IBM Plex Sans Thai","Anuphan",system-ui,sans-serif;
+  --f-body:"Inter","IBM Plex Sans Thai",system-ui,sans-serif;
+  --f-mono:"IBM Plex Mono",ui-monospace,Menlo,monospace;
+  --r-sm:8px; --r-md:12px; --r-lg:16px;
+  --e1:0 1px 2px rgba(16,24,40,.05); --e2:0 1px 3px rgba(16,24,40,.08),0 1px 2px rgba(16,24,40,.04);
+  --e3:0 12px 32px -8px rgba(16,24,40,.18),0 4px 8px -4px rgba(16,24,40,.06);
+  --ring:0 0 0 3px rgba(15,118,110,.18);
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0B0F14; --surface:#121820; --sunk:#18202A; --line:#232D3A; --line-strong:#334155;
+  --ink:#E7ECF2; --muted:#9AA5B4; --faint:#6B7686;
+  --accent:#2DD4BF; --accent-hover:#5EEAD4; --accent-ink:#04201C; --accent-soft:#0F2E2B;
+  --ok:#4ADE80; --ok-bg:#0F2A1B; --warn:#FBBF24; --warn-bg:#2B210B; --bad:#FB923C; --bad-bg:#2D1A10;
+  --disp:#C4B5FD; --disp-bg:#221B3A; --pend:#94A3B8; --pend-bg:#1A2230;
+  --e1:0 1px 2px rgba(0,0,0,.4); --e2:0 1px 3px rgba(0,0,0,.5); --e3:0 16px 40px -8px rgba(0,0,0,.7);
+  --ring:0 0 0 3px rgba(45,212,191,.25); color-scheme:dark}}
+html,body{background:var(--bg)}
+body{font-family:var(--f-body);font-size:14.5px;line-height:1.55;color:var(--ink);-webkit-font-smoothing:antialiased;font-feature-settings:"cv11","ss01","tnum"}
+h1,h2,h3{font-family:var(--f-head);letter-spacing:-.015em;color:var(--ink)}
+h1{font-size:1.5rem;font-weight:700} h2{font-size:1rem;font-weight:600}
+.muted,.hint{color:var(--muted)} .hint{font-size:.8rem}
+.mono,.code{font-family:var(--f-mono);font-variant-numeric:tabular-nums}
+
+/* ---- app bar ---- */
+.wrap{padding-block:0 56px;gap:20px}
+.wrap>header.top{position:sticky;top:0;z-index:30;margin-inline:calc(-1 * max(16px,env(safe-area-inset-left,0px)));padding:14px max(16px,env(safe-area-inset-left,0px));
+  background:color-mix(in srgb,var(--bg) 82%,transparent);-webkit-backdrop-filter:saturate(180%) blur(12px);backdrop-filter:saturate(180%) blur(12px);border-bottom:1px solid var(--line);align-items:center}
+.brand{display:flex;gap:12px;align-items:center;min-width:0}
+.logo{width:40px;height:40px;border-radius:10px;display:grid;place-items:center;background:var(--accent);color:var(--accent-ink);box-shadow:var(--e2);flex:none}
+.logo svg{width:22px;height:22px}
+.tag{background:none;color:var(--muted);padding:0;font-size:.72rem;font-weight:600;letter-spacing:.06em;text-transform:uppercase;border:0}
+.round{font-size:.82rem;color:var(--muted);gap:6px}
+.toolbar{gap:8px;align-items:center}
+
+/* ---- controls ---- */
+button{font-family:var(--f-body);font-weight:600;font-size:.88rem;border-radius:var(--r-sm);border:1px solid var(--line-strong);background:var(--surface);color:var(--ink);min-height:38px;padding:8px 14px;box-shadow:var(--e1);transition:background .15s,border-color .15s,box-shadow .15s,transform .1s}
+button:hover{border-color:var(--line-strong);background:var(--sunk)}
+button:active{transform:translateY(1px)}
+button:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible,.scan-cam:focus-within{outline:none;box-shadow:var(--ring);border-color:var(--accent)}
+button.primary{background:var(--accent);border-color:var(--accent);color:var(--accent-ink);box-shadow:var(--e2)}
+button.primary:hover{background:var(--accent-hover);border-color:var(--accent-hover)}
+button.link{border:0;box-shadow:none;background:none;color:var(--accent);padding:2px 4px;min-height:0;text-decoration:none;font-weight:600}
+button.link:hover{text-decoration:underline;background:none}
+button.danger{color:var(--bad);border-color:color-mix(in srgb,var(--bad) 40%,var(--line))}
+input,select,textarea{font-family:var(--f-body);font-size:.92rem;border-radius:var(--r-sm);border:1px solid var(--line-strong);background:var(--surface);min-height:40px;padding:8px 12px;box-shadow:var(--e1);transition:border-color .15s,box-shadow .15s}
+input::placeholder,textarea::placeholder{color:var(--faint)}
+label{font-size:.8rem;font-weight:500;color:var(--muted)}
+.modelink{color:var(--accent);font-weight:600;font-size:.86rem;text-decoration:none}
+.modelink:hover{text-decoration:underline}
+.scan-cam{border:1px solid var(--line-strong);border-radius:var(--r-sm);background:var(--surface);color:var(--ink);font-weight:600;font-size:.88rem;box-shadow:var(--e1);min-height:40px}
+.scan-cam:hover{background:var(--sunk)}
+.scan-cam.big{border:1px solid var(--accent);background:var(--accent-soft);color:var(--accent);border-radius:var(--r-md);min-height:50px}
+
+/* ---- KPI summary ---- */
+.summary{background:var(--surface);border:1px solid var(--line);border-radius:var(--r-lg);padding:20px;box-shadow:var(--e1);gap:16px}
+.prog-row{display:grid;grid-template-columns:auto 1fr;grid-template-rows:auto auto;column-gap:16px;align-items:end}
+.kpi-label{grid-column:1/-1;font-size:.75rem;font-weight:600;letter-spacing:.05em;text-transform:uppercase;color:var(--muted)}
+.big{font-family:var(--f-head);font-size:2.4rem;font-weight:700;letter-spacing:-.03em;line-height:1.1}
+#sumText{font-size:.88rem;padding-bottom:6px}
+.bar{height:8px;border-radius:999px;background:var(--sunk);border:0}
+.summary .chips{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:10px}
+.summary .chip{display:grid;grid-template-columns:auto 1fr;align-items:center;gap:2px 8px;text-align:left;border-radius:var(--r-md);padding:12px 14px;min-height:0;background:var(--surface);border:1px solid var(--line);box-shadow:none;color:var(--muted);font-size:.8rem;font-weight:500}
+.summary .chip b{grid-column:1/-1;font-family:var(--f-head);font-size:1.45rem;font-weight:700;color:var(--ink);letter-spacing:-.02em}
+.summary .chip .dot{width:8px;height:8px}
+.summary .chip.s-ok .dot{color:var(--ok)} .summary .chip.s-damaged .dot{color:var(--warn)} .summary .chip.s-lost .dot{color:var(--bad)} .summary .chip.s-dispose .dot{color:var(--disp)} .summary .chip.s-pending .dot{color:var(--pend)}
+.summary .chip:hover{border-color:var(--line-strong);background:var(--surface)}
+.summary .chip[aria-pressed="true"]{border-color:var(--accent);box-shadow:var(--ring)}
+@media (max-width:760px){.summary .chips{grid-template-columns:repeat(2,minmax(0,1fr))}}
+
+/* ---- status pills ---- */
+.chip{border-radius:999px;font-weight:600;font-size:.76rem;padding:3px 10px;min-height:26px;border:1px solid transparent}
+.s-ok{background:var(--ok-bg);color:var(--ok)} .s-damaged{background:var(--warn-bg);color:var(--warn)} .s-lost{background:var(--bad-bg);color:var(--bad)}
+.s-dispose{background:var(--disp-bg);color:var(--disp)} .s-pending{background:var(--pend-bg);color:var(--pend)}
+
+/* ---- search ---- */
+.scan input{min-height:44px;font-family:var(--f-mono);font-size:.95rem;padding-left:40px;
+  background:var(--surface) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='18' height='18' viewBox='0 0 24 24' fill='none' stroke='%238A93A3' stroke-width='2' stroke-linecap='round'%3E%3Ccircle cx='11' cy='11' r='7'/%3E%3Cpath d='M20 20l-3.5-3.5'/%3E%3C/svg%3E") 13px center no-repeat}
+.scan button,.scan .scan-cam{min-height:44px}
+.suggest{border-radius:var(--r-md);box-shadow:var(--e3);border-color:var(--line)}
+
+/* ---- location progress ---- */
+.loc-group h3{font-size:.72rem;letter-spacing:.05em;text-transform:uppercase}
+.loc{border-radius:var(--r-sm);border:1px solid var(--line);box-shadow:none;background:var(--surface)}
+.loc:hover{border-color:var(--line-strong);background:var(--surface)}
+.loc[aria-pressed="true"]{border-color:var(--accent);box-shadow:var(--ring)}
+
+/* ---- register list = table look ---- */
+.list{border:1px solid var(--line);border-radius:var(--r-lg);box-shadow:var(--e1);overflow:hidden;background:var(--surface)}
+.row{padding:14px 18px;border-top:1px solid var(--line);transition:background .12s}
+.row:hover{background:var(--sunk)}
+.row .code{font-size:.78rem;color:var(--faint)}
+.row .name{font-weight:600;font-size:.95rem}
+.row .meta{font-size:.8rem;gap:4px 16px}
+.row .act button{min-height:34px;padding:6px 14px}
+.m-tabs{background:var(--sunk);border:1px solid var(--line);border-radius:10px;padding:3px}
+.m-tabs button{border:0;box-shadow:none;background:none;color:var(--muted);font-weight:600;min-height:34px;border-radius:8px}
+.m-tabs button[aria-pressed="true"]{background:var(--surface);color:var(--ink);box-shadow:var(--e2)}
+.filters select{min-height:38px;font-size:.86rem}
+
+/* ---- dialogs ---- */
+dialog{border:1px solid var(--line);border-radius:var(--r-lg);box-shadow:var(--e3);background:var(--surface)}
+dialog::backdrop{background:rgba(9,14,22,.45);-webkit-backdrop-filter:blur(3px);backdrop-filter:blur(3px)}
+.dlg{padding:24px;gap:16px}
+.dlg-head{padding-bottom:12px;border-bottom:1px solid var(--line)}
+.kv{font-size:.86rem;gap:6px 16px}
+.kv dt{color:var(--faint)}
+.statusbtns button,.m-status button{border-radius:var(--r-md);min-height:52px;font-size:.9rem}
+.statusbtns button[aria-pressed="true"],.m-status button[aria-pressed="true"]{border-width:2px;box-shadow:var(--e2)}
+.hist div{border-radius:var(--r-sm);background:var(--sunk);border:1px solid var(--line)}
+.res-card{border:1px solid var(--line);background:var(--sunk);border-radius:var(--r-md)}
+.cam{border:1px dashed var(--accent);background:var(--accent-soft);color:var(--accent);border-radius:var(--r-md)}
+.thumb{border-radius:var(--r-sm);border:1px solid var(--line)}
+.toast{border-radius:10px;box-shadow:var(--e3);font-weight:500}
+.notice{border-radius:var(--r-md);border:1px solid color-mix(in srgb,var(--warn) 30%,transparent)}
+
+/* ---- mobile ---- */
+#mApp{gap:14px;padding-block:0 120px}
+.m-top{position:sticky;top:0;z-index:30;margin-inline:calc(-1 * max(12px,env(safe-area-inset-left,0px)));padding:12px max(14px,env(safe-area-inset-left,0px));
+  background:color-mix(in srgb,var(--bg) 85%,transparent);-webkit-backdrop-filter:saturate(180%) blur(12px);backdrop-filter:saturate(180%) blur(12px);border-bottom:1px solid var(--line)}
+.m-top h1{font-size:1.2rem}
+.m-card{border:1px solid var(--line);border-radius:var(--r-lg);box-shadow:var(--e1);padding:16px}
+.m-prog .big{font-size:2rem}
+.m-scan input{min-height:48px;font-family:var(--f-mono)}
+.m-item{border:1px solid var(--line);border-left:3px solid var(--line-strong);border-radius:var(--r-md);box-shadow:var(--e1);padding:12px 14px;background:var(--surface)}
+.m-item:has(.s-ok){border-left-color:var(--ok)} .m-item:has(.s-damaged){border-left-color:var(--warn)} .m-item:has(.s-lost){border-left-color:var(--bad)} .m-item:has(.s-dispose){border-left-color:var(--disp)}
+.m-item .code{color:var(--faint);font-size:.76rem}
+.m-save{background:color-mix(in srgb,var(--surface) 92%,transparent);-webkit-backdrop-filter:blur(12px);backdrop-filter:blur(12px);border-top:1px solid var(--line);box-shadow:0 -6px 20px -10px rgba(16,24,40,.15)}
+.m-save button,.m-btns button{border-radius:var(--r-md);min-height:52px}
+.m-back{font-weight:600;color:var(--accent)}
+
+/* mobile: search + scan first (the main action in the field), then filters */
+#mHome{display:flex!important;flex-direction:column}
+#mHome[hidden]{display:none!important}
+#mScan{order:-2} #mScanBtn{order:-1}
+.m-top .logo{width:34px;height:34px;border-radius:9px}.m-top .logo svg{width:19px;height:19px}
+.scan input::placeholder,.m-scan input::placeholder{font-family:var(--f-body);letter-spacing:0}
+.m-scan input{padding-left:40px;background:var(--surface) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='18' height='18' viewBox='0 0 24 24' fill='none' stroke='%238A93A3' stroke-width='2' stroke-linecap='round'%3E%3Ccircle cx='11' cy='11' r='7'/%3E%3Cpath d='M20 20l-3.5-3.5'/%3E%3C/svg%3E") 13px center no-repeat}
+
+/* ---- department branding (PRE, KMUTNB): navy + blue from the logo ---- */
+:root{--accent:#1F5FA6;--accent-hover:#174C86;--accent-soft:#EAF1FA;--brand-navy:#162B48;--ring:0 0 0 3px rgba(31,95,166,.2)}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--accent:#6EA8FF;--accent-hover:#93BFFF;--accent-ink:#06162B;--accent-soft:#132544;--ring:0 0 0 3px rgba(110,168,255,.25)}}
+.logo.dept-logo{width:56px;height:56px;border-radius:50%;background:#fff;padding:3px;box-shadow:0 0 0 1px var(--line),var(--e2)}
+.logo.dept-logo img{width:100%;height:100%;object-fit:contain;display:block}
+.m-top .logo.dept-logo{width:44px;height:44px;padding:2px}
+.dept-name{text-transform:none;letter-spacing:.01em;font-size:.74rem;font-weight:600;color:var(--brand-navy)}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .dept-name{color:#AFC6E6}}
+.wrap>header.top h1{font-size:1.45rem}
+
+.newloc{display:grid;gap:8px;padding:12px;border:1px dashed var(--accent);border-radius:var(--r-md);background:var(--accent-soft)}
+.newloc-btns{display:flex;gap:8px;justify-content:flex-end}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <div class="brand">
+      <span class="logo dept-logo"><img src="data:image/webp;base64,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" alt="ตราภาควิชาวิศวกรรมการผลิตและหุ่นยนต์ (PRE) มจพ." width="96" height="96"></span>
+      <div style="display:grid;gap:2px;min-width:0">
+      <span class="tag dept-name">Production and Robotics Engineering Department</span>
+      <h1>ตรวจนับครุภัณฑ์</h1>
+      <div class="round"><span id="roundLabel">รอบตรวจ …</span><button class="link" id="btnRound">เปลี่ยนรอบ</button></div>
+      </div>
+    </div>
+    <div class="toolbar" id="writeTools">
+      <button class="primary" id="btnAdd">+ เพิ่มครุภัณฑ์</button>
+      <button id="btnImport">นำเข้า Excel</button>
+      <input type="file" id="fileCsv" accept=".xlsx,.xls,.csv" hidden>
+      <button id="btnExport">สร้างรายงานผลตรวจ</button>
+      <a id="reportLink" class="modelink" target="_blank" rel="noopener" hidden>เปิดรายงาน ↗</a>
+      <a id="btnSheet" class="modelink" target="_blank" rel="noopener" style="align-self:center">เปิด Google Sheet ↗</a>
+    </div>
+  </header>
+
+  <div class="testbar" hidden>🧪 ระบบทดสอบ — กดเล่นได้เต็มที่ ข้อมูลในนี้ไม่ใช่ผลตรวจจริง</div>
+  <div id="notice" class="notice" hidden></div>
+
+  <section class="summary" aria-label="สรุปผลการตรวจ">
+    <div class="prog-row">
+      <span class="kpi-label">ความคืบหน้ารอบนี้</span>
+      <span class="big" id="sumChecked">–</span>
+      <span class="muted" id="sumText">กำลังโหลดทะเบียน…</span>
+    </div>
+    <div class="bar" id="sumBar" aria-hidden="true"></div>
+    <div class="chips" id="chips"></div>
+  </section>
+
+  <section style="display:grid;gap:8px">
+    <form class="scan" id="scanForm">
+      <div class="sg-wrap"><div class="suggest" id="dSuggest" hidden role="listbox"></div></div>
+      <input id="scanInput" placeholder="สแกนบาร์โค้ด / พิมพ์เลขครุภัณฑ์ หรือชื่อ" autocomplete="off" aria-label="ค้นหาครุภัณฑ์">
+      <button type="submit" class="primary">ตรวจ</button>
+      <label class="scan-cam" title="สแกน QR / บาร์โค้ดจากรูป"><input type="file" id="dScanImg" accept="image/*">📷 สแกนจากรูป</label>
+    </form>
+    <div class="hint">เครื่องสแกนบาร์โค้ด/QR แบบ USB หรือบลูทูธใช้ได้ทันที เมื่อเลขตรงกับรายการ หน้าตรวจจะเปิดขึ้นเอง</div>
+  </section>
+
+  <section style="display:grid;gap:10px">
+    <div class="top"><h2>ความคืบหน้าตามสถานที่</h2></div>
+    <div class="locs" id="locs"></div>
+  </section>
+
+  <section style="display:grid;gap:10px">
+    <div class="top">
+      <h2 id="listTitle">รายการครุภัณฑ์</h2>
+      <div class="filters">
+        <select id="fLoc" aria-label="กรองตามสถานที่"><option value="">ทุกสถานที่</option></select>
+        <select id="fCat" aria-label="กรองตามหมวดหมู่"><option value="">ทุกหมวดหมู่</option></select>
+        <select id="fResp" aria-label="กรองตามผู้รับผิดชอบ"><option value="">ผู้รับผิดชอบทุกคน</option></select>
+        <select id="fStatus" aria-label="กรองตามสถานะ"><option value="">ทุกสถานะ</option></select>
+      </div>
+    </div>
+    <div class="m-tabs d-tabs" role="tablist">
+      <button type="button" data-tab="all" aria-pressed="true">ทั้งหมด</button>
+      <button type="button" data-tab="todo" aria-pressed="false">ยังไม่ตรวจ</button>
+      <button type="button" data-tab="done" aria-pressed="false">ตรวจแล้ว</button>
+    </div>
+    <div class="list" id="list"><div class="empty">กำลังโหลด…</div></div>
+  </section>
+</div>
+
+<div id="mApp" hidden>
+  <header class="m-top">
+    <div class="brand"><span class="logo dept-logo"><img src="data:image/webp;base64,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" alt="ตราภาควิชาวิศวกรรมการผลิตและหุ่นยนต์ (PRE) มจพ." width="96" height="96"></span><div style="display:grid;gap:2px"><span class="tag dept-name">Production and Robotics Engineering Dept.</span><h1>ตรวจครุภัณฑ์</h1><span class="muted" id="mRound" style="font-size:.82rem"></span></div></div>
+  </header>
+  <div class="testbar" hidden>🧪 ระบบทดสอบ — ข้อมูลไม่ใช่ของจริง</div>
+  <div id="mNotice" class="notice" hidden></div>
+
+  <section id="mHome" style="display:grid;gap:14px">
+    <div class="m-card">
+      <label>ชื่อผู้ตรวจ<input id="mWho" placeholder="ชื่อ-นามสกุล" autocomplete="name"></label>
+      <label>สถานที่ / ห้องที่กำลังตรวจ<select id="mLoc"></select></label>
+      <label>หมวดหมู่<select id="mCat"></select></label>
+      <label>ผู้รับผิดชอบ<select id="mResp"></select></label>
+      <div class="m-prog"><span><span class="big" id="mPct">–</span></span><span class="muted" id="mCount"></span></div>
+      <div class="bar" id="mBar"></div>
+    </div>
+    <form class="m-scan" id="mScan">
+      <div class="sg-wrap"><div class="suggest" id="mSuggest" hidden role="listbox"></div></div>
+      <input id="mQ" placeholder="สแกน / พิมพ์รหัส หรือ S/N" autocomplete="off" enterkeyhint="search" aria-label="ค้นหาครุภัณฑ์">
+      <button class="primary" type="submit">ค้นหา</button>
+    </form>
+    <label class="scan-cam big" id="mScanBtn"><input type="file" id="mScanImg" accept="image/*" capture="environment"><span>📷 สแกน QR / บาร์โค้ด</span></label>
+    <div class="m-tabs" role="tablist">
+      <button type="button" id="mTabTodo" aria-pressed="true">ยังไม่ตรวจ</button>
+      <button type="button" id="mTabDone" aria-pressed="false">ตรวจแล้ว</button>
+    </div>
+    <div class="m-list" id="mList"><div class="empty">กำลังโหลด…</div></div>
+  </section>
+
+  <section id="mCheck" hidden style="display:grid;gap:14px">
+    <button type="button" class="m-back" id="mBack">‹ กลับไปรายการ</button>
+    <div class="m-card">
+      <span class="mono muted" id="mCode" style="font-size:.85rem;word-break:break-all"></span>
+      <h2 id="mName" style="font-size:1.2rem"></h2>
+      <div class="muted" id="mSub" style="font-size:.9rem"></div>
+      <div id="mMoved" class="m-moved" hidden></div>
+      <details class="m-more"><summary>ข้อมูลในทะเบียน</summary><dl class="kv" id="mInfo" style="margin-top:8px"></dl></details>
+    </div>
+    <div class="m-card" id="mResult" hidden>
+      <div style="display:flex;justify-content:space-between;align-items:center;gap:8px"><strong>ผลตรวจรอบนี้</strong><button type="button" class="link" id="mReEdit">แก้ไขผลตรวจ</button></div>
+      <div id="mResultBody" class="res-body"></div>
+    </div>
+    <div id="mEditArea" style="display:grid;gap:14px">
+    <div class="m-card">
+      <strong>รูปถ่าย</strong>
+      <div class="thumbs" id="mPhotos"></div>
+      <label id="mWhoRow" class="who-row" hidden>ชื่อผู้ตรวจ (ต้องใส่ก่อนถ่ายรูป)<input id="mWho2" placeholder="ชื่อ-นามสกุล" autocomplete="name"></label>
+      <label class="cam" id="mCam"><input type="file" id="mPhotoIn" accept="image/*" capture="environment">📷 ถ่ายรูป</label>
+      <label class="cam" id="mGal" style="border-style:solid;background:none"><input type="file" id="mGalIn" accept="image/*" multiple>เลือกจากคลังภาพ</label>
+      <span class="hint" id="mPhotoHint"></span>
+    </div>
+    <div class="m-card">
+      <strong>สภาพที่พบ</strong>
+      <div class="m-status" id="mStatus"></div>
+      <label>ที่ตั้งที่พบจริง<select id="mFoundLoc"></select></label>
+      <div class="newloc" id="mNewLoc" hidden><input id="mNewLocIn" placeholder="เช่น อาคาร 82 ชั้น 3 ห้อง 305 ห้องเก็บของ" maxlength="120"><div class="newloc-btns"><button type="button" data-cancelloc="m">ยกเลิก</button><button type="button" class="primary" data-addloc="m">เพิ่มสถานที่</button></div></div>
+      <label>หมายเหตุ<textarea id="mNote" rows="2" placeholder="เช่น จอแตก, ไม่มีป้ายรหัส"></textarea></label>
+    </div>
+    </div>
+    <div class="m-card"><strong>ประวัติ</strong><div class="hist" id="mHist"></div></div>
+    <div class="m-save"><div class="m-btns">
+      <button type="button" class="danger" id="mDel" hidden>ลบผลตรวจ</button>
+      <button type="button" id="mCancelEdit" hidden>ยกเลิก</button>
+      <button type="button" class="primary" id="mOk" hidden>ตกลง</button>
+      <button type="button" class="primary" id="mSave">บันทึกผลตรวจ</button>
+    </div></div>
+  </section>
+</div>
+
+<!-- check dialog -->
+<dialog id="dlgCheck">
+  <form method="dialog" class="dlg" id="checkForm">
+    <div class="dlg-head">
+      <div style="display:grid;gap:2px;min-width:0">
+        <span class="mono muted" id="cCode"></span>
+        <h2 id="cName"></h2>
+      </div>
+      <button type="button" class="link" data-close>ปิด</button>
+    </div>
+    <dl class="kv" id="cInfo"></dl>
+    <div id="cResult" class="res-card" hidden>
+      <div style="display:flex;justify-content:space-between;align-items:center;gap:8px"><strong>ผลตรวจรอบนี้</strong></div>
+      <div id="cResultBody" class="res-body"></div>
+    </div>
+    <div id="cEditArea" style="display:grid;gap:14px">
+    <div style="display:grid;gap:6px">
+      <span class="muted" style="font-size:.85rem">สภาพที่พบ</span>
+      <div class="statusbtns" id="cStatus"></div>
+    </div>
+    <label>สถานที่ตั้งที่พบจริง<select id="cLoc"></select></label>
+    <div class="newloc" id="cNewLoc" hidden><input id="cNewLocIn" placeholder="เช่น อาคาร 82 ชั้น 3 ห้อง 305 ห้องเก็บของ" maxlength="120"><div class="newloc-btns"><button type="button" data-cancelloc="c">ยกเลิก</button><button type="button" class="primary" data-addloc="c">เพิ่มสถานที่</button></div></div>
+    <label>ชื่อผู้ตรวจ<input id="cWho" placeholder="ชื่อ-นามสกุล"></label>
+    <label>หมายเหตุ<textarea id="cNote" rows="2" placeholder="เช่น จอแตกมุมขวา, ย้ายไปห้อง 302"></textarea></label>
+    <div style="display:grid;gap:6px"><span class="muted" style="font-size:.85rem">รูปถ่าย</span>
+      <div class="thumbs" id="cPhotos"></div>
+      <label class="cam" id="cCam"><input type="file" id="cPhotoIn" accept="image/*" multiple>+ เพิ่มรูป</label>
+    </div>
+    </div>
+    <div style="display:grid;gap:6px"><span class="muted" style="font-size:.85rem">ประวัติการตรวจ</span><div class="hist" id="cHist"><span class="muted">–</span></div></div>
+    <div class="foot">
+      <button type="button" class="link" id="cEdit">แก้ไขข้อมูล</button>
+      <button type="button" class="danger" id="cDel" hidden>ลบผลตรวจ</button>
+      <button type="button" id="cReEdit" hidden>แก้ไขผลตรวจ</button>
+      <button type="button" class="primary" id="cOk" data-close hidden>ตกลง</button>
+      <button type="button" id="cCancel">ยกเลิก</button>
+      <button type="button" class="primary" id="cSave">บันทึกผลตรวจ</button>
+    </div>
+  </form>
+</dialog>
+
+<!-- edit dialog -->
+<dialog id="dlgEdit">
+  <form class="dlg" id="editForm">
+    <div class="dlg-head"><h2 id="eTitle">เพิ่มครุภัณฑ์</h2><button type="button" class="link" data-close>ปิด</button></div>
+    <label>รหัสครุภัณฑ์ *<input id="eCode" required class="mono" placeholder="521000030005-30106-00001"></label>
+    <label>รายการครุภัณฑ์ *<input id="eName" required placeholder="Servo Actuator"></label>
+    <div class="grid2">
+      <label>ยี่ห้อ / รุ่น<input id="eDetail"></label>
+      <label>Serial No.<input id="eSerial" class="mono"></label>
+      <label>หมวดหมู่<input id="eCat" list="catList"></label>
+      <label>Asset Tag<input id="eTag" class="mono"></label>
+    </div>
+    <label>ที่ตั้ง<input id="eLoc" list="locList"></label>
+    <div class="grid2">
+      <label>ผู้ครอบครอง<input id="eResp" list="respList" placeholder="เลือกหรือพิมพ์ชื่อ"></label>
+      <label>ปีงบประมาณ<input id="eYear" inputmode="numeric" placeholder="2569"></label>
+      <label>มูลค่าที่ซื้อ/ได้มา (บาท)<input id="ePrice" inputmode="decimal"></label>
+      <label>แหล่งเงิน<input id="eFund" placeholder="R / G"></label>
+    </div>
+    <div id="eErr" class="notice" hidden></div>
+    <div id="eDelConfirm" class="confirm" hidden>ลบรายการนี้ออกจากทะเบียน? <button type="button" class="danger" id="eDelYes">ลบ</button><button type="button" id="eDelNo">ไม่ลบ</button></div>
+    <div class="foot">
+      <button type="button" class="link" id="eDel" hidden style="color:var(--bad);margin-right:auto">ลบรายการ</button>
+      <button type="button" data-close>ยกเลิก</button>
+      <button type="submit" class="primary">บันทึก</button>
+    </div>
+  </form>
+</dialog>
+
+<!-- round dialog -->
+<dialog id="dlgRound">
+  <form class="dlg" id="roundForm">
+    <div class="dlg-head"><h2>ตั้งค่ารอบตรวจ</h2><button type="button" class="link" data-close>ปิด</button></div>
+    <p class="muted" style="margin:0">ครุภัณฑ์ที่ตรวจก่อนวันเริ่มรอบจะกลับเป็น "ยังไม่ตรวจ" ในรอบนี้ ประวัติเดิมยังอยู่ครบ</p>
+    <label>ชื่อรอบ<input id="rLabel" placeholder="ปีงบประมาณ 2570"></label>
+    <label>วันเริ่มรอบ<input id="rStart" type="date"></label>
+    <div class="foot"><button type="button" data-close>ยกเลิก</button><button type="submit" class="primary">บันทึก</button></div>
+  </form>
+</dialog>
+
+<!-- import dialog -->
+<dialog id="dlgImport">
+  <div class="dlg">
+    <div class="dlg-head"><h2>นำเข้าทะเบียนจาก Excel</h2><button type="button" class="link" data-close>ปิด</button></div>
+    <p class="muted" style="margin:0">ใช้ไฟล์ Excel รูปแบบเดียวกับที่ส่งออกจากระบบทะเบียน ชีต "ทะเบียน" ใน Google Sheet จะถูกแทนที่ด้วยไฟล์ใหม่ ผลตรวจที่บันทึกไว้แล้วยังอยู่ครบเพราะผูกกับรหัสครุภัณฑ์</p>
+    <div id="iSummary"></div>
+    <div class="foot"><button type="button" data-close>ยกเลิก</button><button type="button" class="primary" id="iGo" disabled>นำเข้า</button></div>
+  </div>
+</dialog>
+
+<datalist id="locList"></datalist><datalist id="catList"></datalist><datalist id="respList"></datalist>
+<div class="toast" id="toast" hidden></div>
+<dialog id="dlgScan" class="scan-dlg">
+  <div class="scan-view">
+    <video id="scanVideo" playsinline muted autoplay></video>
+    <div class="scan-frame" aria-hidden="true"><i></i><i></i><i></i><i></i><span class="scan-line"></span></div>
+    <div class="scan-top"><button type="button" id="scanClose" class="scan-x" aria-label="ปิด">✕</button><span id="scanMsg">ส่องกล้องไปที่ QR code หรือบาร์โค้ดบนป้าย</span></div>
+    <div class="scan-bottom">
+      <label class="scan-cam" id="scanPhotoBtn"><input type="file" id="scanPhoto" accept="image/*" capture="environment"><span>📷 ถ่ายรูปแทน</span></label>
+      <button type="button" id="scanTorch" class="scan-cam" hidden>🔦 ไฟฉาย</button>
+    </div>
+  </div>
+</dialog>
+<dialog id="dlgNotFound" class="nf-dlg">
+  <div class="dlg" style="text-align:center;justify-items:center">
+    <div class="nf-ic" aria-hidden="true">?</div>
+    <h2>ไม่พบในทะเบียน</h2>
+    <div class="mono" id="nfCode" style="font-size:1.05rem;word-break:break-all"></div>
+    <p class="muted" style="margin:0">เลขนี้ยังไม่มีในทะเบียนครุภัณฑ์ ต้องการเพิ่มเป็นรายการใหม่ไหม</p>
+    <div class="foot" style="justify-content:center;width:100%">
+      <button type="button" data-close>ปิด</button>
+      <button type="button" class="primary" id="nfAdd">+ เพิ่มเข้าทะเบียน</button>
+    </div>
+  </div>
+</dialog>
+<dialog class="save-pop" id="savePop" aria-live="polite">
+  <div class="save-flash"></div>
+  <div class="save-card">
+    <div class="save-top" aria-hidden="true">
+      <div class="save-art">
+        <svg class="cloud" viewBox="0 0 120 80" fill="currentColor"><path d="M32 72a24 24 0 0 1-3-47.8A30 30 0 0 1 86 18a22 22 0 0 1 6 43.6V72z"/><path d="M60 58V34m0 0l-10 10m10-10l10 10" fill="none" stroke="var(--accent)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <svg class="pol p2" viewBox="0 0 38 44"><rect x="1" y="1" width="36" height="42" rx="4" fill="#fff" stroke="rgba(0,0,0,.12)"/><rect x="5" y="5" width="28" height="26" rx="2" fill="#9ed8cd"/><path d="M5 27l8-8 6 6 5-4 9 9v1H5z" fill="#2a9d8f"/><circle cx="25" cy="12" r="3" fill="#ffd166"/></svg>
+        <svg class="pol" viewBox="0 0 38 44"><rect x="1" y="1" width="36" height="42" rx="4" fill="#fff" stroke="rgba(0,0,0,.12)"/><rect x="5" y="5" width="28" height="26" rx="2" fill="#9ed8cd"/><path d="M5 27l8-8 6 6 5-4 9 9v1H5z" fill="#2a9d8f"/><circle cx="25" cy="12" r="3" fill="#ffd166"/></svg>
+        <svg class="badge" viewBox="0 0 40 40"><circle cx="20" cy="20" r="17"/><path d="M12 20.5l5.5 5.5 11-12"/></svg>
+      </div>
+      <span class="save-conf"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></span>
+    </div>
+    <div class="save-body">
+      <div class="save-title" id="saveTitle">กำลังบันทึก…</div>
+      <span class="chip" id="saveStatus"><span class="dot"></span><span></span></span>
+      <div class="save-code" id="saveCode"></div>
+      <div class="save-photos" id="savePhotos" hidden></div>
+      <div class="save-btns"><button type="button" id="saveCancel">ปิด</button><button type="button" class="primary" id="saveRetry">ลองอีกครั้ง</button></div>
+    </div>
+    <div class="save-bar"><span></span></div>
+  </div>
+</dialog>
+<dialog class="done-pop" id="donePop" aria-live="polite">
+  <div class="done-card">
+    <div class="pop-ic" aria-hidden="true">
+      <svg class="ring" viewBox="0 0 96 96"><circle class="track" cx="48" cy="48" r="42"/><circle class="arc" cx="48" cy="48" r="42"/></svg>
+      <svg class="trash" viewBox="0 0 96 96" fill="currentColor">
+        <g class="lid"><rect x="31" y="27" width="34" height="5" rx="2.5"/><rect x="42" y="22" width="12" height="6" rx="2"/></g>
+        <g class="can"><path d="M34 36h28l-2.4 33.2a4 4 0 0 1-4 3.8H40.4a4 4 0 0 1-4-3.8z"/><rect x="42" y="42" width="3" height="24" rx="1.5" fill="var(--surface)"/><rect x="51" y="42" width="3" height="24" rx="1.5" fill="var(--surface)"/></g>
+      </svg>
+      <svg class="check" viewBox="0 0 96 96"><circle class="fill" cx="48" cy="48" r="42"/><path class="tick" d="M31 49 l12 12 l22 -24"/></svg>
+      <span class="burst"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></span>
+    </div>
+    <div class="done-title" id="doneTitle">สำเร็จแล้ว</div>
+    <div class="done-msg" id="doneMsg"></div>
+    <div class="pop-bar"><span></span></div>
+  </div>
+</dialog>
+
+<dialog id="dlgPhoto">
+  <div class="dlg">
+    <div class="dlg-head"><h2>รูปถ่าย</h2><button type="button" class="link" data-close>ปิด</button></div>
+    <span class="muted" id="pMsg"></span>
+    <img id="pImg" alt="รูปถ่ายครุภัณฑ์" style="width:100%;border-radius:8px">
+  </div>
+</dialog>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+<script>
+const STATUS={ok:{label:"ปกติ ใช้งานได้",short:"ปกติ"},damaged:{label:"ชำรุด",short:"ชำรุด"},lost:{label:"สูญหาย / ไม่พบ",short:"สูญหาย"},dispose:{label:"รอจำหน่าย",short:"รอจำหน่าย"}};
+const ORDER=["ok","damaged","lost","dispose","pending"];
+const SLABEL=s=>s==="pending"?"ยังไม่ตรวจ":STATUS[s].short;
+const NOLOC="ไม่ระบุที่ตั้ง",NORESP="ไม่ระบุผู้รับผิดชอบ",NOCAT="ไม่ระบุหมวดหมู่";
+const VIEW=new URLSearchParams(location.search).get("view")||"";
+const DEEP_CODE=new URLSearchParams(location.search).get("code")||"";
+const $=id=>document.getElementById(id);
+const canWrite=true;
+let register=[],results={},assets=[],round=null,me="",sheetUrl="";
+let filter={loc:"",status:"",resp:"",cat:"",tab:"all"},current=null,pendingImport=null,staged=[],busy=0;
+const loaded={register:false};
+
+/* ---------- server calls ---------- */
+/* Apps Script backend (Google Sheet + Drive). Called without Google cookies, so it works
+   even when the browser is signed in to several Google accounts. */
+const API_URL="https://script.google.com/macros/s/AKfycbzDApYIkDFAvEPnwWUNj0N09Z1rZxDn6UgBtfebto6_HQtFNQJR_EYLVWY8mG5S3DCt/exec";
+async function run(fn,...args){
+  let r;
+  try{r=await fetch(API_URL,{method:"POST",credentials:"omit",redirect:"follow",headers:{"Content-Type":"text/plain;charset=utf-8"},body:JSON.stringify({fn,args})});}
+  catch(e){throw new Error("เชื่อมต่อเซิร์ฟเวอร์ไม่ได้ ตรวจสัญญาณอินเทอร์เน็ตแล้วลองใหม่");}
+  let j;try{j=await r.json();}catch(e){throw new Error("เซิร์ฟเวอร์ตอบกลับไม่ถูกต้อง ("+r.status+")");}
+  if(!j.ok)throw new Error(j.error||"เกิดข้อผิดพลาด");
+  return j.result;
+}
+const errMsg=e=>(e&&e.message?e.message.replace(/^Exception:\s*/,""):"เกิดข้อผิดพลาด");
+
+/* ---------- helpers ---------- */
+function defaultRound(){const d=new Date();const y=d.getMonth()>=9?d.getFullYear():d.getFullYear()-1;return{label:"ปีงบประมาณ "+(y+1+543),start:`${y}-10-01`};}
+const thDate=iso=>iso?new Date(iso).toLocaleDateString("th-TH",{day:"numeric",month:"short",year:"2-digit"}):"–";
+const thDateTime=iso=>new Date(iso).toLocaleString("th-TH",{day:"numeric",month:"short",year:"2-digit",hour:"2-digit",minute:"2-digit"});
+const money=n=>(typeof n==="number")?n.toLocaleString("th-TH",{maximumFractionDigits:2})+" บาท":"";
+const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const locLabel=l=>l?String(l).replace(/^\d{6,}\w?\s+/,""):NOLOC;
+function roundStatus(a){const r=round||defaultRound();const x=results[a.id];return x&&x.at&&x.at>=r.start&&x.status?x.status:"pending";}
+function toast(m){const t=$("toast");t.textContent=m;t.hidden=false;clearTimeout(toast._t);toast._t=setTimeout(()=>t.hidden=true,2800);}
+function notice(m){$("notice").textContent=m||"";$("notice").hidden=!m;$("mNotice").textContent=m||"";$("mNotice").hidden=!m;}
+const store={get(k){try{return localStorage.getItem(k)||"";}catch(e){return "";}},set(k,v){try{localStorage.setItem(k,v);}catch(e){}}};
+
+/* drop academic positions, keep ดร. */
+function cleanName(n){if(!n)return "";return String(n).replace(/^\s*(ผู้ช่วยศาสตราจารย์|รองศาสตราจารย์|ศาสตราจารย์|อาจารย์|ผศ\.|รศ\.|ศ\.|อ\.)\s*/,"").replace(/^ดร\.\s*/,"ดร.").trim();}
+const norm=s=>String(s||"").toLowerCase().replace(/[\s\-_./]/g,"");   /* "5210-0003" == "52100003" */
+function merge(){assets=register.map(a=>({...a,location:a.location||"",responsible:cleanName(a.responsible),_nc:norm(a.code),_ns:norm(a.serial)}));}
+
+const tally=(pool,key,empty)=>{const m={};pool.forEach(a=>{const k=a[key]||empty;(m[k]??={t:0,d:0}).t++;if(roundStatus(a)!=="pending")m[k].d++;});return m;};
+const cnt=v=>v?` (${v.d}/${v.t})`:" (0)";
+function locParts(l){const t=locLabel(l);const m=/^(อาคาร\s*\S+(?:\s*ชั้น\s*\S+)?)\s*-?\s*(.*)$/.exec(t);return m?{g:m[1],r:m[2]||t}:{g:"อื่น ๆ",r:t};}
+function locOptions(pool,sel,allLabel){
+  const m=tally(pool,"location",NOLOC);const groups={};
+  Object.keys(m).forEach(k=>{const p=locParts(k===NOLOC?"":k);(groups[p.g]??=[]).push({k,r:k===NOLOC?NOLOC:p.r});});
+  return `<option value="">${allLabel} (${pool.length.toLocaleString("th-TH")})</option>`+Object.keys(groups).sort((a,b)=>a.localeCompare(b,"th",{numeric:true})).map(g=>`<optgroup label="${esc(g)}">`+groups[g].sort((a,b)=>a.r.localeCompare(b.r,"th",{numeric:true})).map(o=>`<option value="${esc(o.k)}" ${o.k===sel?"selected":""}>${esc(o.r)}${cnt(m[o.k])}</option>`).join("")+`</optgroup>`).join("");
+}
+function flatOptions(pool,key,empty,sel,allLabel){
+  const m=tally(pool,key,empty);const names=Object.keys(m).sort((a,b)=>a===empty?1:b===empty?-1:a.localeCompare(b,"th"));
+  if(sel&&!m[sel])names.unshift(sel);
+  return `<option value="">${allLabel} (${pool.length.toLocaleString("th-TH")})</option>`+names.map(k=>`<option value="${esc(k)}" ${k===sel?"selected":""}>${esc(k)}${cnt(m[k])}</option>`).join("");
+}
+const catOptions=(pool,sel,l)=>flatOptions(pool,"category",NOCAT,sel,l);
+const respOptions=(pool,sel,l)=>flatOptions(pool,"responsible",NORESP,sel,l);
+const respNames=()=>[...new Set(assets.map(a=>a.responsible).filter(Boolean))].sort((a,b)=>a.localeCompare(b,"th"));
+function matches(a,q){
+  if(!q)return true;
+  if([a.code,a.name,a.serial,a.tag,a.detail].some(v=>v&&String(v).toLowerCase().includes(q)))return true;
+  const n=norm(q);return n.length>=3&&(a._nc.includes(n)||a._ns.includes(n));
+}
+
+/* ---------- desktop render ---------- */
+function render(){
+  if(isMobile()){renderMobile();return;}
+  const r=round||defaultRound();
+  $("roundLabel").textContent=`รอบตรวจ ${r.label} · เริ่ม ${thDate(r.start)}`;
+  const counts={ok:0,damaged:0,lost:0,dispose:0,pending:0};
+  assets.forEach(a=>counts[roundStatus(a)]++);
+  const total=assets.length,checked=total-counts.pending,f=n=>n.toLocaleString("th-TH");
+  $("sumChecked").textContent=total?Math.floor(checked/total*100)+"%":"0%";
+  $("sumText").textContent=!loaded.register?"กำลังโหลดทะเบียน…":total?`ตรวจแล้ว ${f(checked)} จาก ${f(total)} รายการ · เหลือ ${f(counts.pending)}`:"ยังไม่มีครุภัณฑ์ในทะเบียน";
+  $("sumBar").innerHTML=total?ORDER.filter(s=>s!=="pending").map(s=>`<span class="s-${s}" style="width:${counts[s]/total*100}%;background:currentColor"></span>`).join(""):"";
+  $("chips").innerHTML=ORDER.map(s=>`<button class="chip s-${s}" data-s="${s}" aria-pressed="${filter.status===s}"><span class="dot"></span>${SLABEL(s)} <b>${f(counts[s])}</b></button>`).join("");
+  const locMap={};
+  assets.forEach(a=>{const k=a.location||NOLOC;(locMap[k]??={t:0,c:0,bad:0}).t++;const s=roundStatus(a);if(s!=="pending")locMap[k].c++;if(s==="lost"||s==="damaged")locMap[k].bad++;});
+  const locs=Object.keys(locMap).sort((a,b)=>a.localeCompare(b,"th",{numeric:true}));
+  const groups={};
+  locs.forEach(k=>{const pr=locParts(k===NOLOC?"":k);(groups[pr.g]??=[]).push({k,r:k===NOLOC?NOLOC:pr.r});});
+  const tile=o=>{const v=locMap[o.k],p=v.c/v.t*100;return `<button class="loc" data-loc="${esc(o.k)}" aria-pressed="${filter.loc===o.k}" title="${esc(locLabel(o.k))}"><span class="top1"><strong>${esc(o.r.replace(/^ห้อง\s*(\S+)\s+ห้อง/,"$1 ห้อง").replace(/^ห้อง\s*/,""))}</strong><span class="n">${f(v.c)}/${f(v.t)}${v.bad?` · <b style="color:var(--bad)">${v.bad}</b>`:""}</span></span><div class="bar"><span style="width:${p}%;background:${p===100?"var(--ok)":"var(--accent)"}"></span></div></button>`;};
+  $("locs").innerHTML=locs.length?Object.keys(groups).sort((a,b)=>a.localeCompare(b,"th",{numeric:true})).map(g=>`<div class="loc-group"><h3>${esc(g)}</h3><div class="loc-row">${groups[g].sort((a,b)=>a.r.localeCompare(b.r,"th",{numeric:true})).map(tile).join("")}</div></div>`).join(""):`<span class="muted">สถานที่จะแสดงเมื่อมีครุภัณฑ์ในทะเบียน</span>`;
+  $("fLoc").innerHTML=locOptions(assets,filter.loc,"ทุกสถานที่");
+  const dLoc=assets.filter(a=>!filter.loc||(a.location||NOLOC)===filter.loc);
+  $("fCat").innerHTML=catOptions(dLoc,filter.cat,"ทุกหมวดหมู่");
+  $("fResp").innerHTML=respOptions(dLoc.filter(a=>!filter.cat||(a.category||NOCAT)===filter.cat),filter.resp,"ผู้รับผิดชอบทุกคน");
+  $("fStatus").innerHTML=`<option value="">ทุกสถานะ</option>`+ORDER.map(s=>`<option value="${s}" ${filter.status===s?"selected":""}>${SLABEL(s)}</option>`).join("");
+  $("locList").innerHTML=locs.filter(k=>k!==NOLOC).map(k=>`<option value="${esc(k)}">`).join("");
+  $("catList").innerHTML=[...new Set(assets.map(a=>a.category).filter(Boolean))].map(k=>`<option value="${esc(k)}">`).join("");
+  $("respList").innerHTML=respNames().map(k=>`<option value="${esc(k)}">`).join("");
+  renderList();
+}
+function renderList(){
+  const q=$("scanInput").value.trim().toLowerCase();
+  const base=assets.filter(a=>(!filter.loc||(a.location||NOLOC)===filter.loc)&&(!filter.resp||(a.responsible||NORESP)===filter.resp)&&(!filter.cat||(a.category||NOCAT)===filter.cat)&&(!filter.status||roundStatus(a)===filter.status)&&matches(a,q));
+  const nDone=base.filter(a=>roundStatus(a)!=="pending").length,f=n=>n.toLocaleString("th-TH");
+  const labels={all:`ทั้งหมด (${f(base.length)})`,todo:`ยังไม่ตรวจ (${f(base.length-nDone)})`,done:`ตรวจแล้ว (${f(nDone)})`};
+  document.querySelectorAll(".d-tabs [data-tab]").forEach(b=>{b.textContent=labels[b.dataset.tab];b.setAttribute("aria-pressed",filter.tab===b.dataset.tab);});
+  let rows=filter.tab==="todo"?base.filter(a=>roundStatus(a)==="pending"):filter.tab==="done"?base.filter(a=>roundStatus(a)!=="pending"):base;
+  if(filter.tab==="done")rows.sort((a,b)=>(results[b.id]?.at||"").localeCompare(results[a.id]?.at||""));  /* newest check first */
+  else rows.sort((a,b)=>(roundStatus(a)==="pending"?0:1)-(roundStatus(b)==="pending"?0:1)||(a.code||"").localeCompare(b.code||""));
+  $("listTitle").textContent=`รายการครุภัณฑ์ (${f(rows.length)})`;
+  if(!loaded.register){$("list").innerHTML=`<div class="empty">กำลังโหลดทะเบียน…</div>`;return;}
+  if(!assets.length){$("list").innerHTML=`<div class="empty"><strong>ทะเบียนยังว่าง</strong><span>นำเข้าไฟล์ Excel ทะเบียนครุภัณฑ์ หรือวางข้อมูลลงชีต "ทะเบียน" ใน Google Sheet</span><button class="primary" onclick="$('fileCsv').click()">นำเข้า Excel</button></div>`;return;}
+  if(!rows.length){$("list").innerHTML=`<div class="empty">ไม่พบรายการที่ตรงกับตัวกรอง</div>`;return;}
+  $("list").innerHTML=rows.slice(0,200).map(a=>{const s=roundStatus(a);const sub=[a.detail&&a.detail!==a.name?a.detail:"",a.serial?"S/N "+a.serial:""].filter(Boolean).join(" · ");return `<div class="row">
+    <div style="min-width:0;display:grid;gap:2px">
+      <span class="code">${esc(a.code)}</span>
+      <span class="name">${esc(a.name)}${sub?` <span class="muted" style="font-weight:400;font-size:.88rem">${esc(sub)}</span>`:""}</span>
+      <span class="meta"><span>📍 ${esc(locLabel(a.location))}</span>${a.responsible?`<span>${esc(a.responsible)}</span>`:""}${s!=="pending"?`<span>ตรวจ ${thDateTime(results[a.id].at)}${results[a.id].by?` โดย ${esc(results[a.id].by)}`:""}</span>`:`<span>ตรวจล่าสุด ${thDate(results[a.id]?.at)}</span>`}</span>
+    </div>
+    <div class="act"><span class="chip s-${s}"><span class="dot"></span>${SLABEL(s)}</span><button data-open="${esc(a.id)}">${s==="pending"?"ตรวจ":"ดูผล"}</button></div>
+  </div>`}).join("")+(rows.length>200?`<div class="empty">แสดง 200 จาก ${rows.length.toLocaleString("th-TH")} รายการ ใช้ช่องค้นหาหรือตัวกรองเพื่อหารายการอื่น</div>`:"");
+}
+
+/* ---------- photos ---------- */
+const photoCache={};
+async function shrink(file){
+  try{const bmp=await createImageBitmap(file);const k=Math.min(1,1024/Math.max(bmp.width,bmp.height));
+    const c=document.createElement("canvas");c.width=Math.round(bmp.width*k);c.height=Math.round(bmp.height*k);
+    c.getContext("2d").drawImage(bmp,0,0,c.width,c.height);bmp.close?.();
+    const url=c.toDataURL("image/jpeg",.7);
+    const t=document.createElement("canvas"),kt=Math.min(1,240/Math.max(c.width,c.height));   /* small copy for the Google Sheet */
+    t.width=Math.round(c.width*kt);t.height=Math.round(c.height*kt);t.getContext("2d").drawImage(c,0,0,t.width,t.height);
+    return {url,thumb:t.toDataURL("image/jpeg",.7)};}
+  catch(e){return {url:await new Promise((res,rej)=>{const r=new FileReader();r.onload=()=>res(r.result);r.onerror=rej;r.readAsDataURL(file);}),thumb:""};}
+}
+/* staged photo = {url, code, state:"up"|"ok"|"err", id, p}; upload starts as soon as the photo is taken */
+let photoView=null;
+/* leaving without saving: photos already uploaded are moved to the Drive trash, the rest are deleted when their upload finishes */
+function clearStaged(){staged.forEach(e=>{if(e.state==="ok"&&e.id)run("deletePhoto",e.id).catch(()=>{});else e.dropped=true;});staged=[];}
+function startUpload(e){
+  e.state="up";
+  const a=assets.find(x=>x.code===e.code)||{};
+  const meta={thumb:e.thumb||"",name:a.name||"",desc:[a.code,a.name,a.detail,a.serial?"S/N "+a.serial:"",a.location,a.responsible].filter(Boolean).join(" | ")};
+  e.p=run("uploadPhoto",e.code,e.url,meta).then(id=>{e.id=id;e.state="ok";if(e.dropped)run("deletePhoto",id).catch(()=>{});redrawPhotos();return id;})
+    .catch(err=>{e.state="err";redrawPhotos();throw err;});
+  e.p.catch(()=>{});
+}
+function redrawPhotos(){if(photoView)drawPhotos(photoView.elId,photoView.getSaved());}
+function photoHint(){const up=staged.filter(e=>e.state==="up").length,err=staged.filter(e=>e.state==="err").length,ok=staged.filter(e=>e.state==="ok").length;
+  return err?`อัปโหลดไม่สำเร็จ ${err} รูป จะลองใหม่ตอนกดบันทึก`:up?`กำลังอัปโหลด ${up} รูปเบื้องหลัง เลือกสภาพไปได้เลย`:ok?`อัปโหลดแล้ว ${ok} รูป`:"ถ่ายแล้วรูปจะอัปโหลดเบื้องหลังทันที";}
+function thumbHTML(ids,small){return (ids||[]).map(id=>`<button type="button" class="thumb${small?" sm":""}" data-photo="${esc(id)}" aria-label="ดูรูปขนาดใหญ่"><img data-pid="${esc(id)}" alt=""></button>`).join("");}
+function hydrateThumbs(root){
+  root.querySelectorAll("img[data-pid]").forEach(async img=>{
+    const id=img.dataset.pid;if(img.src)return;
+    try{photoCache["t"+id]??=run("getPhoto",id,true);img.src=await photoCache["t"+id];}catch(e){img.alt="โหลดรูปไม่ได้";}
+  });
+}
+function drawPhotos(elId,saved){
+  const el=$(elId);
+  const neu=staged.map((p,i)=>`<span class="thumb ${p.state}"><img src="${p.url}" alt="รูปใหม่ ${i+1}"><span class="st">${p.state==="up"?"กำลังส่ง…":p.state==="err"?"ส่งไม่สำเร็จ":"✓"}</span><button type="button" data-unstage="${i}" aria-label="ลบรูปนี้">×</button></span>`).join("");
+  el.innerHTML=(thumbHTML(saved)+neu)||`<span class="muted" style="font-size:.85rem">ยังไม่มีรูป</span>`;
+  hydrateThumbs(el);
+  if(elId==="mPhotos")$("mPhotoHint").textContent=photoHint();
+}
+async function addPhotos(files,elId,getSaved,code){
+  photoView={elId,getSaved};
+  for(const f of files){if(!f.type.startsWith("image/"))continue;const sh=await shrink(f);const e={url:sh.url,thumb:sh.thumb,code};staged.push(e);startUpload(e);drawPhotos(elId,getSaved());}
+}
+document.addEventListener("click",async e=>{
+  const t=e.target.closest("[data-photo]");if(!t)return;
+  const id=t.dataset.photo;$("pImg").removeAttribute("src");$("pMsg").textContent="กำลังโหลดรูป…";$("dlgPhoto").showModal();
+  try{photoCache["f"+id]??=run("getPhoto",id,false);$("pImg").src=await photoCache["f"+id];$("pMsg").textContent="";}catch(err){$("pMsg").textContent="โหลดรูปไม่ได้: "+errMsg(err);}
+});
+function unstageHandler(elId,getSaved){$(elId).addEventListener("click",e=>{const b=e.target.closest("[data-unstage]");if(!b)return;e.preventDefault();e.stopPropagation();
+  const [x]=staged.splice(+b.dataset.unstage,1);if(x){if(x.state==="ok")run("deletePhoto",x.id).catch(()=>{});else x.dropped=true;}drawPhotos(elId,getSaved());});}
+
+/* ---------- save a check (shared) ---------- */
+/* Save with a popup that stays until everything is stored: photos (already uploading since they
+   were taken) -> result row. Success: badge + confetti, then it closes. Failure: retry / close. */
+let saving=0,saveRetryFn=null;
+function savePopState(state,title){
+  const p=$("savePop");p.classList.remove("saving","done","fail");void p.offsetWidth;p.classList.add(state);
+  $("saveTitle").textContent=title;if(!p.open)p.showModal();
+}
+function savePopInfo(a,status){
+  $("saveStatus").className="chip s-"+status;$("saveStatus").lastElementChild.textContent=STATUS[status].label;
+  $("saveCode").textContent=a.code+(a.name?" · "+a.name:"");
+}
+function savePopLine(t){$("savePhotos").hidden=!t;$("savePhotos").textContent=t||"";}
+function closeSavePop(){clearTimeout(closeSavePop._t);const p=$("savePop");if(p.open)p.close();p.classList.remove("saving","done","fail");}
+$("savePop").addEventListener("cancel",e=>{e.preventDefault();if(!$("savePop").classList.contains("saving"))closeSavePop();});
+$("savePop").addEventListener("click",e=>{if($("savePop").classList.contains("done"))closeSavePop();});
+$("saveCancel").addEventListener("click",closeSavePop);
+$("saveRetry").addEventListener("click",()=>saveRetryFn&&saveRetryFn());
+
+async function saveWithPopup(a,status,loc,note,who){
+  const photos=staged.slice();
+  savePopInfo(a,status);savePopState("saving","กำลังบันทึก…");
+  saving++;busy++;
+  try{
+    for(let attempt=0;;attempt++){
+      try{
+        photos.filter(e=>e.state==="err").forEach(startUpload);
+        const total=photos.length;
+        const tick=()=>{const done=photos.filter(e=>e.state==="ok").length;if(total)savePopLine(done<total?`📷 อัปโหลดรูป ${done}/${total}`:`📷 อัปโหลดรูปครบ ${total} รูป · กำลังบันทึกผล…`);else savePopLine("กำลังบันทึกผล…");};
+        tick();
+        const ids=await Promise.all(photos.map(e=>e.p.then(id=>{tick();return id;})));
+        tick();
+        results[a.id]=await run("saveCheck",{code:a.code,status,location:loc,note,who,photos:ids});
+        staged=[];                                   /* saved: these photos now belong to the result */
+        savePopLine(total?`📷 บันทึกพร้อมรูป ${total} รูป`:"");
+        savePopState("done","บันทึกแล้ว!");
+        $("savePop").style.setProperty("--dur","1600ms");
+        await new Promise(r=>{closeSavePop._t=setTimeout(()=>{closeSavePop();r();},1600);});
+        return true;
+      }catch(e){
+        if(attempt<2){savePopLine("สัญญาณไม่ดี กำลังลองใหม่…");await new Promise(r=>setTimeout(r,1500*(attempt+1)));continue;}
+        savePopLine(errMsg(e));savePopState("fail","บันทึกไม่สำเร็จ");
+        return await new Promise(r=>{saveRetryFn=()=>{saveRetryFn=null;r(saveWithPopup(a,status,loc,note,who));};$("saveCancel").onclick=()=>{r(false);};});
+      }
+    }
+  }finally{saving--;busy--;}
+}
+window.addEventListener("beforeunload",e=>{if(saving>0){e.preventDefault();e.returnValue="";}});
+function histHTML(items){
+  return items.map(i=>`<div><span class="chip s-${STATUS[i.status]?i.status:"pending"}" style="min-height:0;padding:1px 8px"><span class="dot"></span>${STATUS[i.status]?.short||esc(i.status)}</span><span>${thDateTime(i.at)}</span><span class="muted">${esc(i.by)}</span>${i.location?`<span class="muted">📍 ${esc(locLabel(i.location))}</span>`:""}${i.note?`<span>${esc(i.note)}</span>`:""}${thumbHTML(i.photos,true)}</div>`).join("");
+}
+async function loadHistory(code,elId){
+  const el=$(elId);el.innerHTML=`<span class="muted">กำลังโหลด…</span>`;
+  try{const items=await run("getHistory",code);el.innerHTML=items.length?histHTML(items):`<span class="muted">ยังไม่เคยตรวจ</span>`;hydrateThumbs(el);}
+  catch(e){el.innerHTML=`<span class="muted">โหลดประวัติไม่ได้</span>`;}
+}
+const getWho=()=>store.get("who")||me;
+
+/* success popup: shows briefly, then closes by itself (tap to close sooner) */
+function showDone(title,msg,ms=2200){
+  const p=$("donePop");p.classList.remove("busy","ok");$("doneTitle").textContent=title;popMsg(msg);
+  if(!p.open)p.showModal();   /* top layer: shows above any open dialog */
+  p.style.setProperty("--dur",ms+"ms");void p.offsetWidth;p.classList.add("ok");   /* restart the animations */
+  clearTimeout(showDone._t);showDone._t=setTimeout(hidePop,ms);
+}
+/* working popup: spinner, stays until showDone() or hidePop() */
+function showBusy(title,msg){
+  const p=$("donePop");clearTimeout(showDone._t);p.classList.remove("ok");p.classList.add("busy");$("doneTitle").textContent=title;popMsg(msg);
+  if(!p.open)p.showModal();
+}
+function hidePop(){clearTimeout(showDone._t);const p=$("donePop");if(p.open)p.close();p.classList.remove("busy","ok");}
+/* first part (the asset code) in mono, the rest plain */
+function popMsg(msg){const [code,...rest]=String(msg||"").split(" · ");$("doneMsg").innerHTML=(code?`<b>${esc(code)}</b>`:"")+(rest.length?`<br>${esc(rest.join(" · "))}`:"");}
+$("donePop").addEventListener("click",()=>{if(!$("donePop").classList.contains("busy"))hidePop();});
+$("donePop").addEventListener("cancel",e=>{if($("donePop").classList.contains("busy"))e.preventDefault();else hidePop();});
+
+/* ---------- view mode for an item already checked this round ---------- */
+function resultHTML(r){
+  return `<div class="res-line"><span class="chip s-${r.status}"><span class="dot"></span>${STATUS[r.status]?.label||esc(r.status)}</span><span>${thDateTime(r.at)}</span>${r.by?`<span class="muted">โดย ${esc(r.by)}</span>`:""}</div>`+
+    (r.location?`<div class="res-line muted">📍 พบที่ ${esc(locLabel(r.location))}</div>`:"")+
+    (r.note?`<div class="res-line">📝 ${esc(r.note)}</div>`:"")+
+    `<div class="thumbs">${thumbHTML(r.photos)||`<span class="muted" style="font-size:.85rem">ไม่มีรูป</span>`}</div>`;
+}
+/* two-tap delete: first tap arms the button for 4 s, second tap deletes */
+function armDelete(btn,doDelete){
+  if(btn.classList.contains("confirm")){clearTimeout(btn._t);btn.classList.remove("confirm");btn.textContent="ลบผลตรวจ";doDelete();return;}
+  btn.classList.add("confirm");btn.textContent="แตะอีกครั้งเพื่อยืนยันลบ";
+  clearTimeout(btn._t);btn._t=setTimeout(()=>{btn.classList.remove("confirm");btn.textContent="ลบผลตรวจ";},4000);
+}
+async function deleteResult(a,btn){
+  btn.disabled=true;busy++;showBusy("กำลังลบผลตรวจ…",a.code);
+  try{const r=await run("deleteResult",a.code,getWho());(results[a.id]?.photos||[]).forEach(id=>{delete photoCache["t"+id];delete photoCache["f"+id];});delete results[a.id];showDone("ลบเรียบร้อย!",`${a.code}${r&&r.photos?` · ลบรูป ${r.photos} รูป`:""}`);return true;}
+  catch(e){hidePop();toast("ลบไม่สำเร็จ: "+errMsg(e));return false;}
+  finally{busy--;btn.disabled=false;}
+}
+
+/* ---------- desktop check dialog ---------- */
+let pickStatus=null;
+function openCheck(id){
+  current=assets.find(a=>a.id===id);if(!current)return;
+  const res=results[id];
+  $("cCode").textContent=current.code;$("cName").textContent=current.name;
+  $("cInfo").innerHTML=[["ยี่ห้อ/รุ่น",current.detail],["Serial No.",current.serial],["Asset Tag",current.tag],["หมวดหมู่",current.category],["ชนิด",current.type],["ที่ตั้งในทะเบียน",locLabel(current.location)],["ผู้ครอบครอง",current.responsible],["ปีงบประมาณ",current.year],["มูลค่าที่ได้มา",money(current.price)],["มูลค่าตามบัญชี",money(current.book)],["แหล่งเงิน",current.fund],["วันที่ตรวจรับ",current.received],["ผลตรวจล่าสุด",res?.status?`${STATUS[res.status]?.short||""} · ${thDate(res.at)}`:"ยังไม่เคยตรวจ"]]
+    .filter(x=>x[1]).map(([k,v])=>`<dt>${k}</dt><dd>${esc(v)}</dd>`).join("");
+  pickStatus=roundStatus(current)!=="pending"?res.status:"ok";drawStatusBtns();
+  fillLocSelect("cLoc",res?.location||current.location||"");$("cNote").value="";$("cWho").value=getWho();
+  clearStaged();photoView={elId:"cPhotos",getSaved:()=>results[current?.id]?.photos};drawPhotos("cPhotos",res?.photos);
+  loadHistory(current.code,"cHist");
+  setCheckMode(roundStatus(current)!=="pending"?"view":"edit");
+  $("dlgCheck").showModal();
+}
+function setCheckMode(mode){
+  const v=mode==="view",r=results[current?.id];
+  $("cResult").hidden=!v;$("cEditArea").hidden=v;
+  if(v){$("cResultBody").innerHTML=resultHTML(r);hydrateThumbs($("cResultBody"));}
+  $("cDel").hidden=$("cReEdit").hidden=$("cOk").hidden=!v;$("cSave").hidden=$("cCancel").hidden=v;
+  $("cCancel").dataset.back=roundStatus(current)!=="pending"?"view":"";
+}
+$("cReEdit").addEventListener("click",()=>setCheckMode("edit"));
+$("cCancel").addEventListener("click",()=>{if($("cCancel").dataset.back){clearStaged();setCheckMode("view");}else $("dlgCheck").close();});
+$("cDel").addEventListener("click",e=>armDelete(e.currentTarget,async()=>{if(await deleteResult(current,$("cDel"))){$("dlgCheck").close();render();}}));
+function drawStatusBtns(){$("cStatus").innerHTML=Object.keys(STATUS).map(s=>`<button type="button" class="s-${s}" data-pick="${s}" aria-pressed="${pickStatus===s}"><span class="dot"></span>${STATUS[s].label}</button>`).join("");}
+$("cStatus").addEventListener("click",e=>{const b=e.target.closest("[data-pick]");if(!b)return;pickStatus=b.dataset.pick;drawStatusBtns();});
+$("cPhotoIn").addEventListener("change",async e=>{const f=[...e.target.files];e.target.value="";await addPhotos(f,"cPhotos",()=>results[current?.id]?.photos,current.code);});
+unstageHandler("cPhotos",()=>results[current?.id]?.photos);
+$("cSave").addEventListener("click",async()=>{
+  if(!current||!pickStatus)return;const btn=$("cSave");btn.disabled=true;
+  const who=$("cWho").value.trim();if(who)store.set("who",who);
+  const ok=await saveWithPopup(current,pickStatus,$("cLoc").value.trim(),$("cNote").value.trim(),who);
+  btn.disabled=false;
+  if(ok){$("dlgCheck").close();$("scanInput").value="";render();$("scanInput").focus();}
+});
+$("dlgCheck").addEventListener("close",clearStaged);
+$("cEdit").addEventListener("click",()=>{const a=current;$("dlgCheck").close();openEdit(a);});
+
+/* ---------- edit dialog ---------- */
+let editing=null;
+const EF={eCode:"code",eName:"name",eDetail:"detail",eSerial:"serial",eCat:"category",eTag:"tag",eLoc:"location",eResp:"responsible",eYear:"year",ePrice:"price",eFund:"fund"};
+let openAfterAdd=false;
+function openEdit(a,preset){
+  editing=a?register.find(x=>x.id===a.id):null;$("eTitle").textContent=a?"แก้ไขครุภัณฑ์":"เพิ่มครุภัณฑ์";
+  for(const[el,k] of Object.entries(EF))$(el).value=editing?.[k]??preset?.[k]??"";
+  openAfterAdd=!a&&!!preset;
+  $("eCode").disabled=!!a;$("eErr").hidden=true;$("eDel").hidden=!a;$("eDelConfirm").hidden=true;
+  $("dlgEdit").showModal();(a||preset?.code?$("eName"):$("eCode")).focus();
+}
+window.openEdit=openEdit;
+$("editForm").addEventListener("submit",async e=>{
+  e.preventDefault();
+  const body={};for(const[el,k] of Object.entries(EF))body[k]=$(el).value.trim();
+  body.price=body.price===""?"":Number(body.price.replace(/,/g,""))||"";
+  const btn=e.submitter||$("editForm").querySelector("[type=submit]");btn.disabled=true;
+  try{
+    const isNew=!editing;await run("saveItem",body,isNew);$("dlgEdit").close();
+    toast(isNew?"เพิ่มครุภัณฑ์แล้ว":"บันทึกการแก้ไขแล้ว");await load();
+    if(isNew&&openAfterAdd){const na=assets.find(x=>x.code===body.code);if(na){isMobile()?mOpen(na.id):openCheck(na.id);}}
+  }
+  catch(err){$("eErr").textContent=errMsg(err);$("eErr").hidden=false;}
+  btn.disabled=false;
+});
+$("eDel").addEventListener("click",()=>$("eDelConfirm").hidden=false);
+$("eDelNo").addEventListener("click",()=>$("eDelConfirm").hidden=true);
+$("eDelYes").addEventListener("click",async()=>{try{await run("deleteItem",editing.code);$("dlgEdit").close();toast("ลบรายการแล้ว");await load();}catch(e){toast("ลบไม่สำเร็จ: "+errMsg(e));}});
+
+/* ---------- round ---------- */
+$("btnRound").addEventListener("click",()=>{const r=round||defaultRound();$("rLabel").value=r.label;$("rStart").value=r.start;$("dlgRound").showModal();});
+$("roundForm").addEventListener("submit",async e=>{e.preventDefault();const d=defaultRound();
+  const r={label:$("rLabel").value.trim()||d.label,start:$("rStart").value||d.start};
+  try{await run("setRound",r);round=r;$("dlgRound").close();render();toast("เปลี่ยนรอบตรวจแล้ว");}catch(err){toast("บันทึกไม่สำเร็จ: "+errMsg(err));}});
+
+/* ---------- import Excel ---------- */
+const COLS={code:["รหัสครุภัณฑ์","เลขครุภัณฑ์"],name:["รายการครุภัณฑ์","ชื่อ","ชื่อครุภัณฑ์"],detail:["ยี่ห้อ/รุ่น"],brand:["ยี่ห้อ"],model:["รุ่น"],serial:["serial no.","serial"],tag:["asset tag"],category:["หมวดหมู่","หมวด"],type:["ชนิดครุภัณฑ์"],location:["ชื่อที่ตั้ง","สถานที่","ที่ตั้ง"],responsible:["ผู้ครอบครอง","ผู้รับผิดชอบ"],dept:["ชื่อศูนย์/ฝ่าย"],year:["ปีงบประมาณ","ปีที่ได้มา"],price:["มูลค่าที่ซื้อ/ได้มา","ราคา"],book:["มูลค่าตามบัญชี"],fund:["แหล่งเงิน"],received:["วันที่ตรวจรับพัสดุ"]};
+$("btnImport").addEventListener("click",()=>$("fileCsv").click());
+$("fileCsv").addEventListener("change",async e=>{
+  const file=e.target.files[0];e.target.value="";if(!file)return;
+  let rows;
+  try{if(!window.XLSX)throw 0;const wb=XLSX.read(await file.arrayBuffer(),{cellDates:true});rows=XLSX.utils.sheet_to_json(wb.Sheets[wb.SheetNames[0]],{header:1,raw:true,defval:""});}
+  catch(err){$("iSummary").innerHTML=`<div class="notice">อ่านไฟล์ไม่ได้ ลองบันทึกเป็น .xlsx ใหม่</div>`;$("iGo").disabled=true;$("dlgImport").showModal();return;}
+  const head=(rows.shift()||[]).map(h=>String(h).trim().toLowerCase());const idx={};
+  for(const k in COLS)idx[k]=head.findIndex(h=>COLS[k].includes(h));
+  if(idx.code<0||idx.name<0){$("iSummary").innerHTML=`<div class="notice">ไม่พบคอลัมน์ "รหัสครุภัณฑ์" และ "รายการครุภัณฑ์" ในแถวแรกของไฟล์</div>`;$("iGo").disabled=true;$("dlgImport").showModal();return;}
+  const val=(r,k)=>{if(idx[k]<0)return "";const v=r[idx[k]];return v instanceof Date?v.toLocaleDateString("th-TH"):String(v??"").trim();};
+  const items=[],seen=new Set();
+  for(const r of rows){const code=val(r,"code");if(!code||seen.has(code))continue;seen.add(code);
+    const num=k=>{const v=idx[k]>=0?r[idx[k]]:"";const n=typeof v==="number"?v:Number(String(v).replace(/,/g,""));return v!==""&&isFinite(n)?n:"";};
+    items.push({code,name:val(r,"name"),detail:val(r,"detail")||[val(r,"brand"),val(r,"model")].filter(Boolean).join(" "),serial:val(r,"serial").replace(/^SN:\s*/i,""),tag:val(r,"tag"),category:val(r,"category"),type:val(r,"type"),location:val(r,"location"),responsible:val(r,"responsible"),dept:val(r,"dept"),year:val(r,"year"),price:num("price"),book:num("book"),fund:val(r,"fund"),received:val(r,"received")});}
+  const old=new Set(register.map(a=>a.id));const kept=items.filter(i=>old.has(i.code)).length;
+  pendingImport=items;
+  $("iSummary").innerHTML=`<p style="margin:0">พบ <b>${items.length.toLocaleString("th-TH")}</b> รายการ · ตรงกับทะเบียนเดิม ${kept.toLocaleString("th-TH")} · ใหม่ ${(items.length-kept).toLocaleString("th-TH")} · หายไปจากไฟล์ ${(register.length-kept).toLocaleString("th-TH")}</p>`;
+  $("iGo").disabled=!items.length;$("dlgImport").showModal();
+});
+$("iGo").addEventListener("click",async()=>{
+  const btn=$("iGo");btn.disabled=true;btn.textContent="กำลังนำเข้า…";
+  try{const n=await run("importRegister",pendingImport);$("dlgImport").close();toast(`นำเข้า ${n.toLocaleString("th-TH")} รายการแล้ว`);await load();}
+  catch(e){toast("นำเข้าไม่สำเร็จ: "+errMsg(e));}
+  btn.textContent="นำเข้า";btn.disabled=false;
+});
+
+/* ---------- report ---------- */
+$("btnExport").addEventListener("click",async()=>{
+  const btn=$("btnExport");btn.disabled=true;btn.textContent="กำลังสร้างรายงาน…";
+  try{const url=await run("buildReport");$("reportLink").href=url;$("reportLink").hidden=false;toast("สร้างชีต \"รายงาน\" แล้ว กดลิงก์เพื่อเปิด");}
+  catch(e){toast("สร้างรายงานไม่สำเร็จ: "+errMsg(e));}
+  btn.disabled=false;btn.textContent="สร้างรายงานผลตรวจ";
+});
+
+/* ---------- desktop events ---------- */
+document.addEventListener("click",e=>{
+  const c=e.target.closest("[data-close]");if(c){c.closest("dialog").close();return;}
+  const o=e.target.closest("[data-open]");if(o){openCheck(o.dataset.open);return;}
+  const s=e.target.closest(".chip[data-s]");if(s){filter.status=filter.status===s.dataset.s?"":s.dataset.s;render();return;}
+  const l=e.target.closest(".loc[data-loc]");if(l){filter.loc=filter.loc===l.dataset.loc?"":l.dataset.loc;render();}
+});
+$("btnAdd").addEventListener("click",()=>openEdit());
+document.querySelector(".d-tabs").addEventListener("click",e=>{const b=e.target.closest("[data-tab]");if(b){filter.tab=b.dataset.tab;renderList();}});
+$("fLoc").addEventListener("change",e=>{filter.loc=e.target.value;render();});
+$("fCat").addEventListener("change",e=>{filter.cat=e.target.value;render();});
+$("fResp").addEventListener("change",e=>{filter.resp=e.target.value;render();});
+$("fStatus").addEventListener("change",e=>{filter.status=e.target.value;render();});
+let qT;$("scanInput").addEventListener("input",()=>{clearTimeout(qT);qT=setTimeout(renderList,120);});
+attachSuggest($("scanInput"),$("dSuggest"),a=>{$("scanInput").value=a.code;renderList();openCheck(a.id);});
+$("scanForm").addEventListener("submit",e=>{
+  e.preventDefault();const q=$("scanInput").value.trim().toLowerCase();if(!q)return;
+  const exact=assets.find(a=>a._nc===norm(q)||(a.serial&&a._ns===norm(q)));
+  if(exact)return openCheck(exact.id);
+  const m=assets.filter(a=>matches(a,q));if(m.length===1)return openCheck(m[0].id);
+  if(m.length)return toast(`พบ ${m.length} รายการ เลือกจากรายการด้านล่าง`);
+  const r=lookupScan($("scanInput").value);if(r.asset)return openCheck(r.asset.id);
+  if(looksLikeCode(r.code))showNotFound(r.code);else toast(`ไม่พบ ${q} ในทะเบียน`);
+});
+
+/* ---------- "found at" location picker: every known place + add a new one ---------- */
+let customLocs=[];
+function allLocations(){
+  const set=new Set();
+  assets.forEach(a=>a.location&&set.add(a.location));
+  customLocs.forEach(l=>set.add(l));
+  Object.values(results).forEach(r=>r.location&&set.add(r.location));
+  return [...set];
+}
+function fillLocSelect(id,value){
+  const locs=allLocations();if(value&&!locs.includes(value))locs.push(value);
+  const groups={};
+  locs.forEach(k=>{const p=locParts(k);(groups[p.g]??=[]).push({k,r:p.r});});
+  const sel=$(id);
+  sel.innerHTML=(value?"":`<option value="">— เลือกสถานที่ —</option>`)+
+    Object.keys(groups).sort((a,b)=>a.localeCompare(b,"th",{numeric:true})).map(g=>`<optgroup label="${esc(g)}">`+
+      groups[g].sort((a,b)=>a.r.localeCompare(b.r,"th",{numeric:true})).map(o=>`<option value="${esc(o.k)}">${esc(locLabel(o.k))}${customLocs.includes(o.k)?" ★":""}</option>`).join("")+`</optgroup>`).join("")+
+    `<option value="__new__">＋ เพิ่มสถานที่ใหม่…</option>`;
+  sel.value=value||"";sel.dataset.prev=sel.value;
+  $(id.startsWith("m")?"mNewLoc":"cNewLoc").hidden=true;
+}
+for(const p of ["m","c"]){
+  const sel=$(p==="m"?"mFoundLoc":"cLoc");
+  sel.addEventListener("change",()=>{
+    if(sel.value==="__new__"){sel.value=sel.dataset.prev||"";$(p+"NewLoc").hidden=false;$(p+"NewLocIn").value="";$(p+"NewLocIn").focus();}
+    else sel.dataset.prev=sel.value;
+  });
+}
+document.addEventListener("click",async e=>{
+  const c=e.target.closest("[data-cancelloc]");if(c){$(c.dataset.cancelloc+"NewLoc").hidden=true;return;}
+  const b=e.target.closest("[data-addloc]");if(!b)return;
+  const p=b.dataset.addloc,inp=$(p+"NewLocIn"),name=inp.value.replace(/\s+/g," ").trim();
+  if(name.length<2){inp.focus();toast("ใส่ชื่อสถานที่ก่อน");return;}
+  b.disabled=true;b.textContent="กำลังเพิ่ม…";
+  try{
+    const saved=await run("addLocation",name,getWho());
+    if(!customLocs.includes(saved))customLocs.push(saved);
+    fillLocSelect(p==="m"?"mFoundLoc":"cLoc",saved);toast(`เพิ่ม "${saved}" แล้ว`);
+  }catch(err){toast("เพิ่มไม่สำเร็จ: "+errMsg(err));}
+  b.disabled=false;b.textContent="เพิ่มสถานที่";
+});
+$("mNewLocIn").addEventListener("keydown",e=>{if(e.key==="Enter"){e.preventDefault();document.querySelector('[data-addloc="m"]').click();}});
+$("cNewLocIn").addEventListener("keydown",e=>{if(e.key==="Enter"){e.preventDefault();document.querySelector('[data-addloc="c"]').click();}});
+
+/* ---------- typing a code: auto dashes + suggestions ---------- */
+/* dash layout of a code, e.g. "521000030005-30106-00001" -> [12,17] (digits before each dash) */
+const dashLayout=code=>{const out=[];let d=0;for(const ch of String(code)){if(ch==="-")out.push(d);else d++;}return out;};
+function autoDash(input,ev){
+  const v=input.value;
+  if(ev.inputType&&ev.inputType.startsWith("delete"))return;            /* never fight backspace */
+  if(!/^[0-9-]+$/.test(v)||input.selectionStart!==v.length)return;      /* digits only, typing at the end */
+  const digits=v.replace(/-/g,"");if(digits.length<5)return;
+  const like=assets.find(a=>a._nc.startsWith(digits)&&/^[0-9-]+$/.test(a.code));
+  const layout=like?dashLayout(like.code):(digits.length>12?[12,17]:[]);
+  let out="",d=0;for(const ch of digits){if(layout.includes(d)&&d>0)out+="-";out+=ch;d++;}
+  if(out!==v)input.value=out;
+}
+function suggestFor(q){
+  const n=norm(q),ql=String(q).trim().toLowerCase();if(n.length<2)return [];
+  const out=[],seen=new Set(),push=a=>{if(!seen.has(a.id)&&out.length<8){seen.add(a.id);out.push(a);}};
+  for(const a of assets)if(a._nc.startsWith(n))push(a);                 /* code starts with what was typed */
+  if(out.length<8)for(const a of assets)if(a._nc.includes(n))push(a);    /* code contains it */
+  if(out.length<8)for(const a of assets)if((a.serial&&a._ns.includes(n))||(a.tag&&String(a.tag).includes(q.trim()))||(ql.length>=2&&(a.name||"").toLowerCase().includes(ql)))push(a);
+  return out;
+}
+function markCode(code,q){
+  const n=norm(q);if(!n)return esc(code);
+  let i=0,start=-1,end=-1,k=0;                                           /* map normalized match back onto the dashed code */
+  const nc=norm(code),pos=nc.indexOf(n);if(pos<0)return esc(code);
+  for(let j=0;j<code.length;j++){if(/[\s\-_./]/.test(code[j]))continue;if(k===pos)start=j;if(k===pos+n.length-1){end=j+1;break;}k++;}
+  return esc(code.slice(0,start))+"<b>"+esc(code.slice(start,end))+"</b>"+esc(code.slice(end));
+}
+function attachSuggest(input,box,onPick){
+  let items=[],active=-1;
+  const close=()=>{box.hidden=true;active=-1;};
+  const draw=()=>{
+    if(!items.length){close();return;}
+    box.innerHTML=items.map((a,i)=>{const s=roundStatus(a);return `<button type="button" class="sg-item${i===active?" on":""}" data-i="${i}" role="option"><span class="sg-code mono">${markCode(a.code,input.value)}</span><span class="sg-name">${esc(a.name)}${a.serial?` <span class="muted">· S/N ${esc(a.serial)}</span>`:""}</span><span class="sg-meta muted">📍 ${esc(locLabel(a.location))}</span><span class="chip s-${s}"><span class="dot"></span>${SLABEL(s)}</span></button>`;}).join("");
+    box.hidden=false;
+  };
+  input.addEventListener("input",ev=>{autoDash(input,ev);items=suggestFor(input.value);active=-1;draw();});
+  input.addEventListener("keydown",e=>{
+    if(box.hidden)return;
+    if(e.key==="ArrowDown"){e.preventDefault();active=(active+1)%items.length;draw();}
+    else if(e.key==="ArrowUp"){e.preventDefault();active=(active-1+items.length)%items.length;draw();}
+    else if(e.key==="Enter"&&active>=0){e.preventDefault();const a=items[active];close();onPick(a);}
+    else if(e.key==="Escape")close();
+  });
+  box.addEventListener("mousedown",e=>e.preventDefault());                /* keep focus while clicking */
+  box.addEventListener("click",e=>{const b=e.target.closest("[data-i]");if(!b)return;const a=items[+b.dataset.i];close();onPick(a);});
+  input.addEventListener("blur",()=>setTimeout(close,150));
+  input.form?.addEventListener("submit",close);
+}
+
+/* ---------- scan QR / barcode ---------- */
+/* find an asset from a scanned or typed value: exact code / serial / tag, or a code inside a longer QR text */
+function lookupScan(raw){
+  const t=String(raw||"").trim(),q=t.toLowerCase();if(!t)return {code:""};
+  const a=assets.find(x=>x._nc===norm(t))||assets.find(x=>x.serial&&x._ns===norm(t))||
+          assets.find(x=>(x.tag||"").toLowerCase()===q&&assets.filter(y=>(y.tag||"").toLowerCase()===q).length===1)||
+          (t.length>8?assets.find(x=>x.code&&t.includes(x.code)):null);
+  const m=t.match(/\d{4,15}(?:-\d{2,6}){2,3}/);
+  return {asset:a||null,code:a?a.code:(m?m[0]:t)};
+}
+const looksLikeCode=t=>/^[\w./-]{6,40}$/.test(String(t).trim())&&/\d{4}/.test(t);
+function showNotFound(code){$("nfCode").textContent=code;$("dlgNotFound").showModal();}
+$("nfAdd").addEventListener("click",()=>{const code=$("nfCode").textContent;$("dlgNotFound").close();openEdit(null,{code,location:isMobile()?mLoc:filter.loc,responsible:isMobile()?mResp:filter.resp});});
+let zxingLoad=null;
+function loadZxing(){return zxingLoad??=new Promise((res,rej)=>{const s=document.createElement("script");s.src="https://cdn.jsdelivr.net/npm/@zxing/library@0.21.3/umd/index.min.js";s.onload=()=>res(window.ZXing);s.onerror=()=>{zxingLoad=null;rej(new Error("โหลดตัวอ่านบาร์โค้ดไม่ได้"));};document.head.appendChild(s);});}
+/* read a QR code or barcode from a photo: the phone's built-in reader when there is one, else ZXing */
+async function decodeImage(file){
+  const bmp=await createImageBitmap(file);const k=Math.min(1,1600/Math.max(bmp.width,bmp.height));
+  const c=document.createElement("canvas");c.width=Math.round(bmp.width*k);c.height=Math.round(bmp.height*k);c.getContext("2d").drawImage(bmp,0,0,c.width,c.height);
+  if("BarcodeDetector" in window){
+    try{const det=new BarcodeDetector({formats:["qr_code","code_128","code_39","ean_13","data_matrix"]});const r=await det.detect(c);if(r.length)return r[0].rawValue;}catch(e){}
+  }
+  const ZX=await loadZxing();
+  const hints=new Map();hints.set(ZX.DecodeHintType.TRY_HARDER,true);
+  const reader=new ZX.BrowserMultiFormatReader(hints);
+  try{const r=await reader.decodeFromImageUrl(c.toDataURL("image/jpeg",.9));return r.getText();}catch(e){return "";}
+}
+async function scanFromFile(file,btn,onFound){
+  if(!file)return;btn.classList.add("busy");const label=btn.lastChild.textContent;btn.lastChild.textContent=" กำลังอ่านรหัส…";
+  try{
+    const raw=await decodeImage(file);
+    if(!raw){toast("อ่าน QR / บาร์โค้ดไม่ออก ถ่ายใหม่ให้ชัดและใกล้ขึ้น");return;}
+    const r=lookupScan(raw);
+    if(r.asset){onFound(r.asset);}else showNotFound(r.code);
+  }catch(e){toast(errMsg(e));}
+  finally{btn.classList.remove("busy");btn.lastChild.textContent=label;}
+}
+/* live camera scanner: point at the label and it jumps straight to that item */
+let scanStream=null,scanTimer=null,scanReader=null,scanDone=false;
+function stopScan(){
+  clearInterval(scanTimer);scanTimer=null;
+  try{scanReader&&scanReader.reset();}catch(e){}scanReader=null;
+  if(scanStream){scanStream.getTracks().forEach(t=>t.stop());scanStream=null;}
+  const v=$("scanVideo");v.srcObject=null;
+  if($("dlgScan").open)$("dlgScan").close();
+}
+function scanHit(raw){
+  if(scanDone||!raw)return;scanDone=true;
+  document.querySelector(".scan-frame").classList.add("hit");navigator.vibrate?.(60);
+  const r=lookupScan(raw);
+  setTimeout(()=>{stopScan();if(r.asset)mOpen(r.asset.id);else showNotFound(r.code);},150);
+}
+async function startScan(){
+  scanDone=false;document.querySelector(".scan-frame").classList.remove("hit");
+  $("scanMsg").textContent="กำลังเปิดกล้อง…";$("scanTorch").hidden=true;$("dlgScan").showModal();
+  try{
+    if(!navigator.mediaDevices?.getUserMedia)throw new Error("nocam");
+    scanStream=await navigator.mediaDevices.getUserMedia({audio:false,video:{facingMode:{ideal:"environment"},width:{ideal:1280},height:{ideal:720}}});
+    const v=$("scanVideo");v.srcObject=scanStream;await v.play().catch(()=>{});
+    $("scanMsg").textContent="ส่องกล้องไปที่ QR code หรือบาร์โค้ดบนป้าย";
+    const track=scanStream.getVideoTracks()[0];
+    if(track?.getCapabilities?.().torch){$("scanTorch").hidden=false;let on=false;$("scanTorch").onclick=()=>{on=!on;track.applyConstraints({advanced:[{torch:on}]}).catch(()=>{});};}
+    if("BarcodeDetector" in window){
+      const det=new BarcodeDetector({formats:["qr_code","code_128","code_39","ean_13","data_matrix"]});
+      scanTimer=setInterval(async()=>{if(scanDone||v.readyState<2)return;try{const r=await det.detect(v);if(r.length)scanHit(r[0].rawValue);}catch(e){}},180);
+    }else{
+      /* no built-in reader (e.g. iPhone): grab frames ourselves and decode with ZXing,
+         alternating the area inside the frame (fast, works close up) and the whole picture */
+      const ZX=await loadZxing();const hints=new Map();
+      hints.set(ZX.DecodeHintType.POSSIBLE_FORMATS,[ZX.BarcodeFormat.QR_CODE,ZX.BarcodeFormat.CODE_128,ZX.BarcodeFormat.CODE_39,ZX.BarcodeFormat.EAN_13,ZX.BarcodeFormat.DATA_MATRIX]);
+      hints.set(ZX.DecodeHintType.TRY_HARDER,true);
+      const mfr=new ZX.MultiFormatReader();mfr.setHints(hints);
+      const c=document.createElement("canvas"),g=c.getContext("2d",{willReadFrequently:true});let n=0;
+      scanTimer=setInterval(()=>{
+        if(scanDone||v.readyState<2||!v.videoWidth)return;
+        const vw=v.videoWidth,vh=v.videoHeight,full=(n++%2===1);
+        const s=full?1:.7,sw=vw*(full?1:s),sh=full?vh:Math.min(vh,vw*s),sx=(vw-sw)/2,sy=(vh-sh)/2;
+        const k=Math.min(1,900/Math.max(sw,sh));c.width=Math.round(sw*k);c.height=Math.round(sh*k);
+        g.drawImage(v,sx,sy,sw,sh,0,0,c.width,c.height);
+        try{const r=mfr.decode(new ZX.BinaryBitmap(new ZX.HybridBinarizer(new ZX.HTMLCanvasElementLuminanceSource(c))));if(r)scanHit(r.getText());}catch(e){/* nothing in this frame */}
+      },250);
+    }
+  }catch(e){
+    /* the page is not allowed to use the live camera (or the viewer said no): photo mode still works */
+    if(scanStream){scanStream.getTracks().forEach(t=>t.stop());scanStream=null;}
+    liveFailed=true;
+    $("scanMsg").textContent="เปิดกล้องสดในหน้านี้ไม่ได้ กด \"ถ่ายรูปแทน\" แล้วถ่ายป้ายให้เห็น QR";
+  }
+}
+/* Live camera only where this page may use it. Inside the Apps Script / Google Sites frame it may not
+   (the screen stays black), so there the button opens the phone's own camera straight away. */
+const liveCamOK=(()=>{try{
+  if(!navigator.mediaDevices?.getUserMedia)return false;
+  const fp=document.permissionsPolicy||document.featurePolicy;
+  if(fp&&fp.allowsFeature&&!fp.allowsFeature("camera"))return false;
+  return true;}catch(e){return false;}})();
+let liveFailed=false;
+$("mScanBtn").addEventListener("click",e=>{if(liveCamOK&&!liveFailed){e.preventDefault();startScan();}});
+$("mScanImg").addEventListener("change",e=>{const f=e.target.files[0];e.target.value="";scanFromFile(f,$("mScanBtn"),a=>mOpen(a.id));});
+$("scanClose").addEventListener("click",stopScan);
+$("dlgScan").addEventListener("cancel",e=>{e.preventDefault();stopScan();});
+$("scanPhoto").addEventListener("change",async e=>{
+  const f=e.target.files[0];e.target.value="";if(!f)return;
+  $("scanMsg").textContent="กำลังอ่านรหัสจากรูป…";
+  try{const raw=await decodeImage(f);if(raw)scanHit(raw);else $("scanMsg").textContent="อ่านไม่ออก ลองถ่ายใหม่ให้ใกล้และชัดขึ้น";}
+  catch(err){$("scanMsg").textContent=errMsg(err);}
+});
+/* deep link: ...?code=<เลขครุภัณฑ์> opens that item (for QR codes that hold a link) */
+let deepLinkDone=false;
+function openDeepLink(){
+  if(deepLinkDone)return;deepLinkDone=true;
+  const c=DEEP_CODE.replace(/^["'\s]+|["'\s]+$/g,"");
+  if(c.length<3)return;const r=lookupScan(c);if(r.asset)(isMobile()?mOpen(r.asset.id):openCheck(r.asset.id));else showNotFound(r.code);
+}
+$("dScanImg").addEventListener("change",e=>{const f=e.target.files[0];e.target.value="";scanFromFile(f,e.target.parentElement,a=>openCheck(a.id));});
+
+/* ---------- mobile ---------- */
+let mLoc=store.get("mLoc"),mCat=store.get("mCat"),mResp=store.get("mResp"),mTab="todo",mItem=null,mPick="ok";
+const phoneMQ=window.matchMedia("(max-width: 760px), (pointer: coarse) and (max-width: 1100px)");
+const isMobile=()=>VIEW==="mobile"||(VIEW!=="desktop"&&phoneMQ.matches);
+let lastMobile=null;
+function route(){const m=isMobile();lastMobile=m;$("mApp").hidden=!m;document.querySelector(".wrap").hidden=m;if(!m)mCloseItem();render();}
+phoneMQ.addEventListener?.("change",()=>{if(isMobile()!==lastMobile)route();});
+function renderMobile(){
+  const r=round||defaultRound();$("mRound").textContent=`รอบ ${r.label}`;
+  $("mLoc").innerHTML=locOptions(assets,mLoc,"ทุกสถานที่");
+  const inLoc=assets.filter(a=>!mLoc||(a.location||NOLOC)===mLoc);
+  $("mCat").innerHTML=catOptions(inLoc,mCat,"ทุกหมวดหมู่");
+  const inCat=inLoc.filter(a=>!mCat||(a.category||NOCAT)===mCat);
+  $("mResp").innerHTML=respOptions(inCat,mResp,"ทุกคน");
+  const pool=inCat.filter(a=>!mResp||(a.responsible||NORESP)===mResp);
+  const done=pool.filter(a=>roundStatus(a)!=="pending");
+  $("mPct").textContent=pool.length?Math.floor(done.length/pool.length*100)+"%":"–";
+  $("mCount").textContent=loaded.register?`ตรวจแล้ว ${done.length.toLocaleString("th-TH")} / ${pool.length.toLocaleString("th-TH")}`:"กำลังโหลด…";
+  $("mBar").innerHTML=pool.length?`<span style="width:${done.length/pool.length*100}%;background:var(--accent)"></span>`:"";
+  $("mTabTodo").textContent=`ยังไม่ตรวจ (${(pool.length-done.length).toLocaleString("th-TH")})`;
+  $("mTabDone").textContent=`ตรวจแล้ว (${done.length.toLocaleString("th-TH")})`;
+  $("mTabTodo").setAttribute("aria-pressed",mTab==="todo");$("mTabDone").setAttribute("aria-pressed",mTab==="done");
+  $("locList").innerHTML=[...new Set(assets.map(a=>a.location).filter(Boolean))].map(k=>`<option value="${esc(k)}">`).join("");
+  const q=$("mQ").value.trim().toLowerCase();
+  let rows=(mTab==="todo"?pool.filter(a=>roundStatus(a)==="pending"):done).filter(a=>matches(a,q));
+  if(mTab==="done")rows.sort((a,b)=>(results[b.id]?.at||"").localeCompare(results[a.id]?.at||""));
+  if(!loaded.register){$("mList").innerHTML=`<div class="empty">กำลังโหลดทะเบียน…</div>`;return;}
+  $("mList").innerHTML=rows.length?rows.slice(0,80).map(a=>{const s=roundStatus(a);return `<button type="button" class="m-item" data-mopen="${esc(a.id)}"><span style="min-width:0;display:grid;gap:2px"><span class="code">${esc(a.code)}</span><span class="name">${esc(a.name)}</span><span class="muted" style="font-size:.82rem">${esc([a.serial?"S/N "+a.serial:"",mLoc?"":locLabel(a.location)].filter(Boolean).join(" · "))}</span></span><span class="chip s-${s}" style="min-height:28px"><span class="dot"></span>${SLABEL(s)}</span></button>`}).join("")+(rows.length>80?`<div class="empty">แสดง 80 จาก ${rows.length.toLocaleString("th-TH")} รายการ ค้นหาเพื่อหารายการอื่น</div>`:"")
+    :`<div class="empty">${mTab==="todo"?(pool.length?"ตรวจครบทุกรายการแล้ว":"ไม่มีรายการ"):"ยังไม่มีรายการที่ตรวจแล้ว"}</div>`;
+}
+function mOpen(id){
+  mItem=assets.find(a=>a.id===id);if(!mItem)return;const a=mItem,res=results[id];
+  $("mHome").hidden=true;$("mCheck").hidden=false;window.scrollTo(0,0);
+  $("mWho2").value=$("mWho").value;delete $("mWhoRow").dataset.keep;mSyncWho();
+  $("mCode").textContent=a.code;$("mName").textContent=a.name;
+  $("mSub").textContent=[a.detail&&a.detail!==a.name?a.detail:"",a.serial?"S/N "+a.serial:"",locLabel(a.location)].filter(Boolean).join(" · ");
+  $("mInfo").innerHTML=[["Asset Tag",a.tag],["หมวดหมู่",a.category],["ผู้ครอบครอง",a.responsible],["ปีงบประมาณ",a.year],["มูลค่าที่ได้มา",money(a.price)],["แหล่งเงิน",a.fund]].filter(x=>x[1]).map(([k,v])=>`<dt>${k}</dt><dd>${esc(v)}</dd>`).join("");
+  const moved=mLoc&&(a.location||NOLOC)!==mLoc;
+  $("mMoved").hidden=!moved;if(moved)$("mMoved").textContent=`ทะเบียนระบุว่าอยู่ที่ ${locLabel(a.location)} แต่พบที่ห้องที่กำลังตรวจ`;
+  fillLocSelect("mFoundLoc",moved?mLoc:(res?.location||a.location||""));$("mNote").value="";
+  mPick=roundStatus(a)!=="pending"?res.status:"ok";mDrawStatus();
+  clearStaged();photoView={elId:"mPhotos",getSaved:()=>results[mItem?.id]?.photos};drawPhotos("mPhotos",res?.photos);
+  loadHistory(a.code,"mHist");
+  mSetMode(roundStatus(a)!=="pending"?"view":"edit");
+}
+function mSetMode(mode){
+  const v=mode==="view",checked=mItem&&roundStatus(mItem)!=="pending";
+  $("mResult").hidden=!checked;$("mEditArea").hidden=v;$("mReEdit").hidden=!v;
+  if(checked){$("mResultBody").innerHTML=resultHTML(results[mItem.id]);hydrateThumbs($("mResultBody"));}
+  $("mDel").hidden=$("mOk").hidden=!v;$("mSave").hidden=v;$("mCancelEdit").hidden=v||!checked;
+  if(v)$("mMoved").hidden=true;
+}
+$("mReEdit").addEventListener("click",()=>{mSetMode("edit");$("mEditArea").scrollIntoView({behavior:"smooth",block:"start"});});
+$("mCancelEdit").addEventListener("click",()=>{clearStaged();mSetMode("view");window.scrollTo(0,0);});
+$("mOk").addEventListener("click",()=>{mCloseItem();renderMobile();});
+$("mDel").addEventListener("click",e=>armDelete(e.currentTarget,async()=>{if(await deleteResult(mItem,$("mDel"))){mCloseItem();renderMobile();}}));
+function mCloseItem(){mItem=null;clearStaged();$("mCheck").hidden=true;$("mHome").hidden=false;}
+function mDrawStatus(){$("mStatus").innerHTML=Object.keys(STATUS).map(s=>`<button type="button" class="s-${s}" data-mpick="${s}" aria-pressed="${mPick===s}"><span class="dot"></span>${STATUS[s].label}</button>`).join("");}
+$("mStatus").addEventListener("click",e=>{const b=e.target.closest("[data-mpick]");if(b){mPick=b.dataset.mpick;mDrawStatus();}});
+$("mBack").addEventListener("click",()=>{mCloseItem();renderMobile();});
+$("mLoc").addEventListener("change",e=>{mLoc=e.target.value;store.set("mLoc",mLoc);renderMobile();});
+$("mCat").addEventListener("change",e=>{mCat=e.target.value;store.set("mCat",mCat);renderMobile();});
+$("mResp").addEventListener("change",e=>{mResp=e.target.value;store.set("mResp",mResp);renderMobile();});
+$("mWho").addEventListener("change",e=>store.set("who",e.target.value.trim()));
+$("mTabTodo").addEventListener("click",()=>{mTab="todo";renderMobile();});
+$("mTabDone").addEventListener("click",()=>{mTab="done";renderMobile();});
+let mqT;$("mQ").addEventListener("input",()=>{clearTimeout(mqT);mqT=setTimeout(renderMobile,150);});
+attachSuggest($("mQ"),$("mSuggest"),a=>{$("mQ").value="";$("mQ").blur();mOpen(a.id);});
+$("mScan").addEventListener("submit",e=>{
+  e.preventDefault();const q=$("mQ").value.trim().toLowerCase();if(!q)return;
+  const exact=assets.find(a=>a._nc===norm(q)||(a.serial&&a._ns===norm(q)));
+  if(exact){$("mQ").value="";return mOpen(exact.id);}
+  const m=assets.filter(a=>matches(a,q));
+  if(m.length===1){$("mQ").value="";return mOpen(m[0].id);}
+  if(m.length){mTab=m.some(a=>roundStatus(a)==="pending")?"todo":"done";if(!m.some(a=>(!mLoc||(a.location||NOLOC)===mLoc)&&(!mCat||(a.category||NOCAT)===mCat)&&(!mResp||(a.responsible||NORESP)===mResp))){mLoc=mCat=mResp="";}renderMobile();toast(`พบ ${m.length} รายการ`);}
+  else{const r=lookupScan($("mQ").value);if(r.asset){$("mQ").value="";return mOpen(r.asset.id);}
+    if(looksLikeCode(r.code)){$("mQ").value="";showNotFound(r.code);}else toast(`ไม่พบ ${q} ในทะเบียน`);}
+});
+$("mList").addEventListener("click",e=>{const b=e.target.closest("[data-mopen]");if(b)mOpen(b.dataset.mopen);});
+/* the checker's name must be known before any photo is taken, so a photo can never be stranded */
+const mWhoNow=()=>($("mWho2").value.trim()||$("mWho").value.trim());
+function mSyncWho(){const has=!!mWhoNow();$("mWhoRow").hidden=has&&!$("mWhoRow").dataset.keep;["mCam","mGal"].forEach(id=>$(id).classList.toggle("locked",!has));}
+$("mWho2").addEventListener("input",e=>{$("mWhoRow").dataset.keep="1";$("mWho").value=e.target.value;store.set("who",e.target.value.trim());mSyncWho();});
+$("mWho").addEventListener("input",()=>{$("mWho2").value=$("mWho").value;});
+for(const id of ["mCam","mGal"])$(id).addEventListener("click",e=>{
+  if(mWhoNow())return;
+  e.preventDefault();$("mWhoRow").hidden=false;$("mWho2").focus();toast("ใส่ชื่อผู้ตรวจก่อนถ่ายรูป");
+},true);
+for(const id of ["mPhotoIn","mGalIn"])$(id).addEventListener("change",async e=>{const f=[...e.target.files];e.target.value="";$("mPhotoHint").textContent="กำลังย่อรูป…";await addPhotos(f,"mPhotos",()=>results[mItem?.id]?.photos,mItem.code);});
+unstageHandler("mPhotos",()=>results[mItem?.id]?.photos);
+$("mSave").addEventListener("click",async()=>{
+  if(!mItem)return;const who=mWhoNow();
+  if(!who){$("mWhoRow").hidden=false;$("mWho2").focus();toast("ใส่ชื่อผู้ตรวจก่อนบันทึก");return;}
+  store.set("who",who);
+  const a=mItem,btn=$("mSave");btn.disabled=true;
+  const ok=await saveWithPopup(a,mPick,$("mFoundLoc").value.trim(),$("mNote").value.trim(),who);
+  btn.disabled=false;
+  if(ok){mCloseItem();renderMobile();window.scrollTo(0,0);}
+});
+
+/* ---------- load & sync ---------- */
+async function load(){
+  try{
+    const d=await run("getData");
+    document.querySelectorAll(".testbar").forEach(b=>b.hidden=!d.testMode);
+    customLocs=d.locations||[];register=d.register;results=d.results;round=d.round;me=d.me;sheetUrl=d.sheetUrl;loaded.register=true;
+    $("btnSheet").href=sheetUrl;
+    if(!$("mWho").value)$("mWho").value=getWho();
+    notice("");merge();
+    if(!(mItem&&isMobile()))render(); else renderMobile();
+    openDeepLink();
+  }catch(e){notice("โหลดข้อมูลไม่สำเร็จ: "+errMsg(e));}
+}
+/* other people's checks appear every 30 s, or as soon as the page comes back into view */
+setInterval(()=>{if(!document.hidden&&!busy)load();},30000);
+document.addEventListener("visibilitychange",()=>{if(!document.hidden&&!busy)load();});
+route();load();
+</script>
+</body>
+</html>
